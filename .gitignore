@@ -1,0 +1,18 @@
+# latex
+*.pdf
+*.log
+*.fls
+*.aux
+*.fdb_latexmk
+*.gz
+*.blg
+*.bbl
+
+# alloy
+alloy/counterexamples/*
+src/count/counterexamples/*
+*Classification.als
+
+# code
+.vscode
+*.class

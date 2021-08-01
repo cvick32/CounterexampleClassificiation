@@ -1,0 +1,88 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "CountCounterexamples on Public Channel Broken",
+            "request": "launch",
+            "mainClass": "count.CountCounterexamples",
+            "projectName": "AttackClassification_e414a253",
+            "args": ["/Users/colevick/Documents/cs/research/AttackClassification/alloy/public_channel_broken.als", "all"]
+        },
+        {
+            "type": "java",
+            "name": "CountCounterexamples on NS Symmetric",
+            "request": "launch",
+            "mainClass": "count.CountCounterexamples",
+            "projectName": "AttackClassification_e414a253",
+            "args": ["/Users/colevick/Documents/cs/research/AttackClassification/alloy/needham_schroeder_symmetric.als", "all"]
+        }, 
+        {
+            "type": "java",
+            "name": "Classify Public Chan", 
+            "request": "launch",
+            "mainClass": "ClassifyCounterexamples",
+            "args": [
+                        ["relIsTrue"],
+                        [
+                            "relEqualsMessage",
+                            "relEqualsProcess",
+                            "relEqualsKey"
+                        ],
+                        "publicChannel.als",
+                        "NeverSecretMessageEveCanSee",
+                        "1", 
+                        "2"
+                    ]
+        },
+        {
+            "type": "java",
+            "name": "Classify NS Symmetric", 
+            "request": "launch",
+            "mainClass": "ClassifyCounterexamples",
+            "args": [
+                        ["empty"], 
+                        [   
+                            //"relEqualsMessage",
+                            //"relEqualsProcess",
+                            //"relEqualsKey",
+                            "relKeyinKey",
+                            "relReplay",
+                            //"relHappensBefore"
+                        ], 
+                        "needhamSchroederSymmetric.als", 
+                        "EventuallyAliceAndBobCommunicateWithEachOther",
+                        "1",
+                        "8"
+                    ]
+        },
+        {
+            "type": "java",
+            "name": "Classify NS Public Key", 
+            "request": "launch",
+            "mainClass": "ClassifyCounterexamples",
+            "args": [
+                        ["empty"], 
+                        [   
+                            "relEqualsMessage",
+                            "relEqualsProcess",
+                            "relEqualsKey",
+                            "relKeyinKey",
+                            "manInTheMiddle",
+                            "relHappensBefore"
+                        ], 
+                        "needhamSchroederPublicKey.als", 
+                        "EventuallyAliceAndBobCommunicateWithEachOther",
+                        "1",
+                        "9"
+                    ]
+        }
+    ]
+}
+
+// NOCHECK, // anything but 1 or 2
+// MOSTGENERAL, // 1 
+// MOSTSPECIFIC // 2
