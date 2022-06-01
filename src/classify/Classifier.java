@@ -50,10 +50,12 @@ public class Classifier {
     private int currentMaxLineNumber;
     private int numClass = 0;
     private long classificationStartTime;
+    private double timeSpentInAlloy;
     private boolean powerPredicatesActive = false;
     private String initialConstraint;
     private Sig timeSig = null;
     private boolean initialConstraintHuh;
+    private boolean redundancy;
 
     /**
      * Builds a Classifier.
@@ -62,13 +64,15 @@ public class Classifier {
      * @param filename given alloy file
      * @param propName name of the property
      * @param relNames user-defined relations
-    */
+     */
     public Classifier(final A4Reporter rep, final A4Options op,
-            final String filename,
-            final String propName,
-            final List<String> relNames,
-            final String scopeStr, 
-            final List<String> powerPreds) {
+                      final String filename,
+                      final String propName,
+                      final List<String> relNames,
+                      final String scopeStr,
+                      final List<String> powerPreds,
+                      final boolean redundancy) {
+        this.redundancy = redundancy;
         this.reporter = rep;
         this.options = op;
         this.propertyName = propName;
@@ -80,41 +84,40 @@ public class Classifier {
         Classifier.scope = scopeStr;
         this.writeClassificationFile();
         this.classificationStartTime = System.nanoTime();
-	this.initialConstraintHuh = !this.relNames.get(0).equals("empty");
-	this.parseAndTypecheck();
-	this.setTimeSig();
+        this.timeSpentInAlloy = 0;
+        this.initialConstraintHuh = !this.relNames.get(0).equals("empty");
+        this.parseAndTypecheck();
+        this.setTimeSig();
     }
 
     public A4Solution getOriginalCounterexample() {
-	for (Command propCheck : this.world.getAllCommands()) {
-	    System.out.println(propCheck.label);
+        for (Command propCheck : this.world.getAllCommands()) {
             if (propCheck.label.equals("Check" + this.propertyName)) {
-                ConstList<CommandScope> scopeList = ConstList.make(1, new CommandScope(timeSig, true, Integer.valueOf(Classifier.scope)));
-                Command correctScopeCheck = propCheck.change(scopeList);
                 printInfoAndTime("> Searching for Counterexample");
                 A4Solution ans = null;
                 try {
-                    ans = TranslateAlloyToKodkod.execute_command(this.reporter, this.world.getAllReachableSigs(),
-                    correctScopeCheck, this.options);
-		    return ans;
+                    long cexStartTime = System.nanoTime();
+                    ans = TranslateAlloyToKodkod.execute_command(this.reporter, this.world.getAllReachableSigs(), propCheck, this.options);
+                    this.timeSpentInAlloy += this.getTimeDifferenceInSeconds(System.nanoTime(), cexStartTime);
+                    return ans;
                 } catch (Exception e) {
                     System.out.println(e.toString());
                     System.exit(1);
                 }
-	    }
-	}
-	return null;
+            }
+        }
+        return null;
     }
-    
+
     /**
-     * Classify all counterexamples for the given model and 
-     * property. 
+     * Classify all counterexamples for the given model and
+     * property.
      */
     public void classify() {
-	this.handleInitialConstraint();
+        this.handleInitialConstraint();
         while (this.findCounterexample() != null) {
-	    this.flushTempFiles();
-            this.writeCurrentSolution(); 
+            this.flushTempFiles();
+            this.writeCurrentSolution();
             this.writeFactsForCounterexample();
             this.parseAndTypecheckCatchWarnings();
             A4Solution ans = this.getCoreSolution();
@@ -137,14 +140,17 @@ public class Classifier {
             this.appendNegatedClassFacts();
             this.parseAndTypecheckCatchWarnings();
         }
-        this.redundancyCheck();
+        if (this.redundancy) {
+            this.redundancyCheck();
+        }
         this.writeCurrentSolution();
         this.parseAndTypecheckCatchWarnings(); // cleanup final class
         this.onlyWriteSolution();
         this.appendNegatedClassFacts();
         this.writeRelationsUsed();
+        printInfoAndTime("Time Spent in Alloy " + String.valueOf(timeSpentInAlloy));
         printInfoAndTime("Classification at " + this.classificationFile);
-	}
+    }
 
     /**
      * Parse and typecheck the classification file. If we encounter any warnings
@@ -153,7 +159,7 @@ public class Classifier {
     private void parseAndTypecheck() {
         printInfoAndTime("> Start Parsing");
         this.world = CompUtil.parseEverything_fromFile(
-                                this.reporter, null, this.classificationFile);
+                                                       this.reporter, null, this.classificationFile);
         printInfoAndTime("> Completed Parsing");
     }
 
@@ -165,10 +171,10 @@ public class Classifier {
         printInfoAndTime("> Handling Warnings");
         WarningReporter rep = new WarningReporter();
         Module w = CompUtil.parseEverything_fromFile(
-                                rep, null, this.classificationFile);
+                                                     rep, null, this.classificationFile);
         if (!rep.getWarnings().isEmpty()) {
             String warningFreeString = rep.handleWarnings(
-                                       this.classificationFile);
+                                                          this.classificationFile);
             this.overwriteClassificationFile(warningFreeString);
             this.parseAndTypecheckCatchWarnings();
         }
@@ -184,15 +190,13 @@ public class Classifier {
      */
     private Counterexample findCounterexample() {
         this.handleInitialConstraint();
-       	for (Command propCheck : this.world.getAllCommands()) {
+        for (Command propCheck : this.world.getAllCommands()) {
             if (propCheck.label.equals("Check" + this.propertyName)) {
-                ConstList<CommandScope> scopeList = ConstList.make(1, new CommandScope(timeSig, true, Integer.valueOf(Classifier.scope)));
-                Command correctScopeCheck = propCheck.change(scopeList);
                 printInfoAndTime("> Searching for Counterexample");
                 A4Solution ans = null;
                 try {
                     ans = TranslateAlloyToKodkod.execute_command(this.reporter, this.world.getAllReachableSigs(),
-                    correctScopeCheck, this.options);
+                                                                 propCheck, this.options);
                 } catch (Exception e) {
                     System.out.println(e.toString());
                     System.exit(1);
@@ -206,29 +210,30 @@ public class Classifier {
                         rels = this.relNames;
                     }
                     Counterexample cex = new Counterexample(
-                                    ans,
-                                    this.getFuncFromNames(rels));
+                                                            ans,
+                                                            this.getFuncFromNames(rels));
                     this.currentCounterexample = cex;
                     return cex;
                 } else {
                     if (this.initialConstraintHuh) {
-			printInfoAndTime("> Done Classifying Initial Constraint");
-			this.initialConstraintHuh = false;
-			this.activatePowerPredicates();
+                        printInfoAndTime("> Done Classifying Initial Constraint");
+                        this.initialConstraintHuh = false;
+                        this.activatePowerPredicates();
                         this.writeCurrentSolution();
-			this.appendNegatedClassFacts();
+                        this.appendNegatedClassFacts();
                         this.parseAndTypecheck();
                         return this.findCounterexample();
                     } else {
-			printInfoAndTime("> Completed Command and Found NO Counterexample!");
-			return null;
-		    }
+                        printInfoAndTime("> Completed Command and Found NO Counterexample!");
+                        return null;
+                    }
                 }
+
             }
         }
         return null;
     }
-    
+
     /**
      * Writes all the facts for a given counterexample.
      */
@@ -239,7 +244,7 @@ public class Classifier {
             String timeString = this.currentCounterexample.getTimeString();
             final String className = "intermediate" + (this.numClass + 1);
             BufferedWriter cf = new BufferedWriter(
-                new FileWriter(this.classificationFile, true)); // append=true
+                                                   new FileWriter(this.classificationFile, true)); // append=true
             cf.newLine();
             cf.newLine();
             cf.write("pred " + className + " {");
@@ -265,10 +270,11 @@ public class Classifier {
         Expr propExpr = funcWithName(this.propertyName).call();
         Expr factExpr = this.world.getAllReachableFacts();
         Command c = new Command(false, Integer.valueOf(Classifier.scope), -1, -1, propExpr.and(factExpr));
-    
         printInfoAndTime(">> Checking if Generated Facts are Sufficient for Violation");
-        
+
+        long checkStartTime = System.nanoTime();
         A4Solution ans = TranslateAlloyToKodkod.execute_command(this.reporter, this.world.getAllReachableSigs(), c, this.options);
+        this.timeSpentInAlloy += this.getTimeDifferenceInSeconds(System.nanoTime(), checkStartTime);
         if (!ans.satisfiable()) {
             if (this.powerPredicatesActive && this.initialConstraintHuh) {
                 this.deactivatePowerPredicates();
@@ -276,20 +282,20 @@ public class Classifier {
             printInfoAndTime(">> UNSAT, Generated Facts are Sufficient for Violation");
             return ans;
         } else {
-	    System.out.println(">>>>> SAT, NOT expected!");
-	    if (!this.powerPredicatesActive) {
-		System.out.println("> Trying Power Predicates.");
-		this.activatePowerPredicates();
-		return null;
-	    }
-	    System.out.println(">>>>>> Given Predicates may be unable to characterize violating behavior");
-	    System.out.println("Predicates Used: " + this.getRelationString());
-	    throw new IllegalStateException("Should not be satisfiable, given predicates may be too weak");
+            System.out.println(">>>>> SAT, NOT expected!");
+            if (!this.powerPredicatesActive) {
+                System.out.println("> Trying Power Predicates.");
+                this.activatePowerPredicates();
+                return null;
+            }
+            System.out.println(">>>>>> Given Predicates may be unable to characterize violating behavior");
+            System.out.println("Predicates Used: " + this.getRelationString());
+            throw new IllegalStateException("Should not be satisfiable, given predicates may be too weak");
         }
     }
 
     private void handleInitialConstraint() {
-	if (this.initialConstraintHuh) {
+        if (this.initialConstraintHuh) {
             this.setInitialConstraint();
             this.writeInitialConstraintToClassificationFile();
             this.parseAndTypecheck();
@@ -300,7 +306,6 @@ public class Classifier {
         System.out.println("> Deactivating Power Predicates");
         this.powerPredicatesActive = false;
         return;
-        
     }
 
     private void activatePowerPredicates() {
@@ -323,7 +328,7 @@ public class Classifier {
     }
     /**
      * Check that the final set of classes is non-redundant, ie. that
-     * each class accounts for some counterexample that is not 
+     * each class accounts for some counterexample that is not
      * accounted for by some other class.
      */
     private void redundancyCheck() {
@@ -356,22 +361,22 @@ public class Classifier {
             throw new RuntimeException(e);
         }
     }
-    
+
     /**
      * Flush temp files, Linux only
      */
     private void flushTempFiles() {
-	    System.out.println("Flushing tmp files");
-	    try {
-	        File f = new File("/tmp/");
-	        Arrays.stream(f.listFiles()).forEach(File::delete);
-	    } catch (Exception e) {
-	        System.out.println(e.toString());
-	    }
+        System.out.println("Flushing tmp files");
+        try {
+            File f = new File("/tmp/");
+            Arrays.stream(f.listFiles()).forEach(File::delete);
+        } catch (Exception e) {
+            System.out.println(e.toString());
+        }
     }
 
     private void setInitialConstraint() {
-	    String factString = "fact {\n some ";
+        String factString = "fact {\n some ";
         List<List<String>> paramList = new ArrayList<>();
         for (int i = 0; i < this.relNames.size(); i++) {
             Func rel = this.funcWithName(this.relNames.get(i));
@@ -382,7 +387,7 @@ public class Classifier {
                 String varAndType = varName + ": " + typeName;
                 if (j + 1 != rel.params().size()) {
                     varName += ",";
-                } 
+                }
                 if (i + 1 != this.relNames.size() || j + 1 != rel.params().size()) {
                     varAndType += ",";
                 }
@@ -407,8 +412,8 @@ public class Classifier {
         factString += "}\n}";
         this.initialConstraint = factString;
     }
-	
-    /**     
+
+    /**
      * Writes a class to the Classification file.
      * @param classFacts
      * @return Class Name
@@ -416,8 +421,8 @@ public class Classifier {
     private void writeClassToFile(final String classRepr) {
         try {
             BufferedWriter cf = new BufferedWriter(
-                                new FileWriter(
-                                    this.classificationFile, true));
+                                                   new FileWriter(
+                                                                  this.classificationFile, true));
             cf.write(classRepr);
             cf.close();
         } catch (Exception e) {
@@ -451,13 +456,13 @@ public class Classifier {
 
     /**
      * Write the relations used in this classification at the
-     * bottom of the classification file. 
+     * bottom of the classification file.
      */
     private void writeRelationsUsed() {
         try {
             BufferedWriter cf = new BufferedWriter(
-                new FileWriter(
-                    this.classificationFile, true));
+                                                   new FileWriter(
+                                                                  this.classificationFile, true));
             cf.write("/**");
             cf.newLine();
             cf.write(this.getRelationString());
@@ -466,7 +471,7 @@ public class Classifier {
         } catch (Exception e) {
             throw new RuntimeException(e);
         }
-	}
+    }
 
 
     /**
@@ -506,13 +511,12 @@ public class Classifier {
     private void overwriteClassificationFile(final String newFileText) {
         try {
             BufferedWriter bw = new BufferedWriter(
-                            new FileWriter(this.classificationFile, false));
-        bw.write(newFileText);
-        bw.close();
+                                                   new FileWriter(this.classificationFile, false));
+            bw.write(newFileText);
+            bw.close();
         } catch (Exception e) {
             throw new RuntimeException(e);
         }
-        
     }
 
     private void writeFactStatement(final BufferedWriter cf,
@@ -560,9 +564,9 @@ public class Classifier {
         this.numClass++;
         String className = "Class" + this.numClass;
         return new CounterexampleClass(className,
-                                        this.currentCounterexample, 
-                                        this.funcWithName(className),
-                                        this.powerPredicatesActive);
+                                       this.currentCounterexample,
+                                       this.funcWithName(className),
+                                       this.powerPredicatesActive);
     }
 
     /**
@@ -571,7 +575,7 @@ public class Classifier {
     private String readAndStoreOriginalFile() {
         try {
             BufferedReader originalFile = new BufferedReader(
-                                                    new FileReader(this.originalFileName));
+                                                             new FileReader(this.originalFileName));
             String originalString = "";
             while (originalFile.ready()) {
                 originalString += originalFile.readLine() + "\n";
@@ -584,15 +588,20 @@ public class Classifier {
     }
 
     private void printInfoAndTime(String infoString) {
-        double time = (double) (System.nanoTime() - this.classificationStartTime) / 1000000000;
+        double time = this.getTimeDifferenceInSeconds(System.nanoTime(), this.classificationStartTime);
         String timeString = "\t" + String.valueOf(time) + " seconds elapsed.";
         System.out.println(infoString + timeString);
     }
 
+    private double getTimeDifferenceInSeconds(long current, long previous) {
+        double time = (double) (current - previous) / 1000000000;
+        return time;
+    }
+
     private void writeInitialConstraintToClassificationFile() {
-        this.overwriteClassificationFile(this.originalFileText + 
-                                         "\n" + 
-                                         this.solution.writeSolutionAsString() + 
+        this.overwriteClassificationFile(this.originalFileText +
+                                         "\n" +
+                                         this.solution.writeSolutionAsString() +
                                          "\n" +
                                          this.initialConstraint);
         this.appendNegatedClassFacts();
@@ -604,8 +613,8 @@ public class Classifier {
      * file into a safe state.
      */
     private void writeCurrentSolution() {
-        this.overwriteClassificationFile(this.originalFileText + 
-                                         "\n" + 
+        this.overwriteClassificationFile(this.originalFileText +
+                                         "\n" +
                                          this.solution.writeSolutionAsString());
     }
 

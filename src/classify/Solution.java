@@ -10,44 +10,44 @@ import java.util.List;
  * incomplete
  */
 public class Solution {
-  private List<CounterexampleClass> classes = new ArrayList<>();
+    private List<CounterexampleClass> classes = new ArrayList<>();
 
-  public void addClass(CounterexampleClass cexC) {
-    this.classes.add(cexC);
-  }
-
-  public void removeClass(String className) {
-    for (CounterexampleClass cexClass : this.classes) {
-      if (cexClass.getPredName() == className) {
-        this.classes.remove(cexClass);
-        break;
-      }
+    public void addClass(CounterexampleClass cexC) {
+        this.classes.add(cexC);
     }
-  }
 
-  public CounterexampleClass findClass(String className) {
-    for (CounterexampleClass cexClass : this.classes) {
-      if (cexClass.getPredName() == className) {
-        return cexClass;
-      }
+    public void removeClass(String className) {
+        for (CounterexampleClass cexClass : this.classes) {
+            if (cexClass.getPredName() == className) {
+                this.classes.remove(cexClass);
+                break;
+            }
+        }
     }
-    return null;
-  }
 
-  public String writeSolutionAsString() {
-    String solString = "";
-    for (CounterexampleClass cexC : this.classes) {
-      solString += cexC.getClassAsString() + "\n\n";
+    public CounterexampleClass findClass(String className) {
+        for (CounterexampleClass cexClass : this.classes) {
+            if (cexClass.getPredName() == className) {
+                return cexClass;
+            }
+        }
+        return null;
     }
-    return solString;
-  }
 
-  public List<String> getAllClassNames() {
-    List<String> names = new ArrayList<>();
-    for (CounterexampleClass c : this.classes) {
-      names.add(c.getPredName());
+    public String writeSolutionAsString() {
+        String solString = "";
+        for (CounterexampleClass cexC : this.classes) {
+            solString += cexC.getClassAsString() + "\n\n";
+        }
+        return solString;
     }
-    return names;
-  } 
+
+    public List<String> getAllClassNames() {
+        List<String> names = new ArrayList<>();
+        for (CounterexampleClass c : this.classes) {
+            names.add(c.getPredName());
+        }
+        return names;
+    }
 }
 

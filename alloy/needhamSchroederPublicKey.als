@@ -10,16 +10,16 @@ abstract sig Principal {
 abstract sig Nonce {}
 
 one sig AliceNonce, BobNonce, EveNonce extends Nonce {}
-one sig Server extends Principal {} 
+one sig Server extends Principal {}
 
 one sig Key_PA, Key_SA, Key_PB, Key_SB, Key_PS, Key_SS, Key_PE, Key_SE extends Key {}
 
 one sig Message {
-	sender: Principal lone -> Time, 
+	sender: Principal lone -> Time,
 	nonceA: Nonce lone -> Time,
        nonceB: Nonce lone -> Time,
 	process: Process lone -> Time,
-	key: Key lone -> Time, 
+	key: Key lone -> Time,
 	encryption: Key lone -> Time
 }
 
@@ -28,17 +28,17 @@ abstract sig Process extends Principal {
 	comm_key: Key lone -> Time,
 	partner: lone Process,
 	nonce: one Nonce,
-	keys: set Key -> Time  
-} 
+	keys: set Key -> Time
+}
 
 one sig Eve extends Process {} {
-	all t: Time | comm_key.t = Key_PE 
+	all t: Time | comm_key.t = Key_PE
 }
 
 one sig Alice, Bob extends Process {} {
     server_key = Key_PS
 		no keys
-} 
+}
 
 
 pred init (t: Time) {
@@ -60,7 +60,7 @@ pred AliceRequestBob(t, t': Time) {
 	Alice.message.t.sender.t = Server
 	Alice.message.t.process.t = Alice
 	Alice.message.t.key.t != Key_PA
-	let serverMsg = Server.message.t' | 
+	let serverMsg = Server.message.t' |
 		(serverMsg.sender.t' = Alice and
 		no serverMsg.nonceA.t' and
         	no serverMsg.nonceB.t' and
@@ -75,7 +75,7 @@ pred AliceRequestBob(t, t': Time) {
 pred ServerCommWithAlice(t, t': Time) {
 	Server.message.t.sender.t = Alice
 	Server.message.t.process.t = Bob
-	let aliceMsg = Alice.message.t' | 
+	let aliceMsg = Alice.message.t' |
 		(aliceMsg.sender.t' = Server and
 		no aliceMsg.nonceA.t' and
         	no aliceMsg.nonceB.t' and
@@ -123,7 +123,7 @@ pred BobRequestAlice (t, t': Time)  {
 	(Bob.message.t.sender.t = Alice or Bob.message.t.sender.t = Eve)
 	Bob.message.t.process.t = Alice
 	some Bob.message.t.nonceA.t
-	let serverMsg = Server.message.t' | 
+	let serverMsg = Server.message.t' |
 		(serverMsg.sender.t' = Bob and
 		no serverMsg.nonceA.t' and
         	no serverMsg.nonceB.t' and
@@ -137,7 +137,7 @@ pred BobRequestAlice (t, t': Time)  {
 pred ServerCommWithBob(t, t': Time) {
 	Server.message.t.sender.t = Bob
 	Server.message.t.process.t = Alice
-	let bobMsg = Bob.message.t' | 
+	let bobMsg = Bob.message.t' |
 		(bobMsg.sender.t' = Server and
 		no bobMsg.nonceA.t' and
         	no bobMsg.nonceB.t' and
@@ -182,7 +182,7 @@ pred EveSendNoncesToAlice (t, t': Time) {
 
 pred AliceReplyNonceToSender (t, t': Time) {
 	(Alice.message.t.sender.t = Bob or Alice.message.t.sender.t = Eve)
-	let bobOrEveMsg = Alice.message.t.sender.t.message.t' | 
+	let bobOrEveMsg = Alice.message.t.sender.t.message.t' |
 		(bobOrEveMsg.sender.t' = Alice and
         no bobOrEveMsg.nonceA.t' and
 		bobOrEveMsg.nonceB.t' = Alice.message.t.nonceB.t and
@@ -226,7 +226,7 @@ pred noProcChange (t, t': Time, p: Process) {
 fact Traces {
 	first.init
 	all t: Time - last | let t' = t.next |
-		AliceRequestBob[t, t'] 
+		AliceRequestBob[t, t']
 		or ServerCommWithAlice[t, t']
 		or AliceSendToBob[t, t']
 		or EveSendToBob[t, t']
@@ -242,7 +242,7 @@ fact Traces {
 }
 
 fact alwaysDifferentSender {
-	all t: Time, t': t.next | Message.sender.t != Message.sender.t' 
+	all t: Time, t': t.next | Message.sender.t != Message.sender.t'
 }
 
 fact serverDoesNotLearn {
@@ -257,10 +257,10 @@ fact diffNonces {
 
 fact neverForget {
 	all t: Time, t': t.next, p: Principal |  #p.knows.t' >= #p.knows.t
-} 
+}
 
 fact attackerFrame {
-	all t: Time, t': t.next | no Eve.message.t implies Eve.knows.t' = Eve.knows.t 
+	all t: Time, t': t.next | no Eve.message.t implies Eve.knows.t' = Eve.knows.t
 }
 
 fact onlyOneMessagePerPrincipal {
@@ -275,14 +275,14 @@ pred relHappensBefore(t: Time, t': Time) {
 	t.lt[t']
 }
 
-// this predicate models the attacker forwarding a message 
+// this predicate models the attacker forwarding a message
 // to a legitimate participant only chaning the encryption used
 // on the message
 /**
 pred manInTheMiddle (t: Time, t': Time) {
 	some p, p': Process {
 		relHappensBefore[t,t']
-		p.message.t.sender.t != Eve && 
+		p.message.t.sender.t != Eve &&
 		p.message.t.sender.t' = Eve &&
 		p.message.t.nonceA.t = p'.message.t'.nonceA.t' &&
 		p.message.t.nonceB.t = p'.message.t'.nonceB.t' &&
@@ -295,7 +295,7 @@ pred manInTheMiddle (t: Time, t': Time) {
 
 pred aManInTheMiddle (t: Time, t': Time) {
 	t = t'.prev
-	Eve.message.t.sender.t != Eve && 
+	Eve.message.t.sender.t != Eve &&
 	Alice.message.t.sender.t' = Eve &&
 	Eve.message.t.nonceA.t = Alice.message.t'.nonceA.t' &&
 	Eve.message.t.nonceB.t = Alice.message.t'.nonceB.t' &&
@@ -306,7 +306,7 @@ pred aManInTheMiddle (t: Time, t': Time) {
 
 pred bManInTheMiddle (t: Time, t': Time) {
 	t = t'.prev
-	Eve.message.t.sender.t != Eve && 
+	Eve.message.t.sender.t != Eve &&
 	Bob.message.t.sender.t' = Eve &&
 	Eve.message.t.nonceA.t = Bob.message.t'.nonceA.t' &&
 	Eve.message.t.nonceB.t = Bob.message.t'.nonceB.t' &&
@@ -378,4 +378,3 @@ assert CheckEventuallyAliceAndBobCommunicateWithEachOther {
 } check CheckEventuallyAliceAndBobCommunicateWithEachOther for 9
 
 
-run EventuallyAliceAndBobCommunicateWithEachOther for 9

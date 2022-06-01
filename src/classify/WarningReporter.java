@@ -60,7 +60,7 @@ public class WarningReporter extends A4Reporter {
         }
         try {
             BufferedReader classificationFile = new BufferedReader(
-                                                    new FileReader(filename));
+                                                                   new FileReader(filename));
             int prevLineNumber = 1; // line number for old file
             int newLineNumber = 1; // line number for new file
             List<String> warningFreeStringList = new ArrayList<>();
@@ -70,26 +70,20 @@ public class WarningReporter extends A4Reporter {
                     warningFreeStringList.add(curLine + "\n");
                     newLineNumber++;
                 } else if (warningMap.get(prevLineNumber) != null) {
-                    String removeUnusedVar = curLine.substring(
-                                                0, warningMap.get(
-                                                    prevLineNumber).x - 2)
-                                                + curLine.substring(
-                                                    warningMap.get(
-                                                        prevLineNumber).x2)
-                                                + "\n";
+                    String removeUnusedVar = curLine.substring(0, warningMap.get(prevLineNumber).x - 2)
+                        + curLine.substring(warningMap.get(prevLineNumber).x2)
+                        + "\n";
                     String removeCommas = removeUnusedVar
-                                            .replace(",:", ":")
-                                            .replace("some,", "some ");
+                        .replace(",:", ":")
+                        .replace("some,", "some ");
                     warningFreeStringList.add(removeCommas);
                     newLineNumber++;
                 }
                 prevLineNumber++;
             }
             int idxToLastExprInPred = newLineNumber - BRACKETBUFFER;
-            warningFreeStringList.set(
-                idxToLastExprInPred,
-                warningFreeStringList.get(
-                    idxToLastExprInPred).replace("&&\n", "\n"));
+            warningFreeStringList.set(idxToLastExprInPred,
+                                      warningFreeStringList.get(idxToLastExprInPred).replace("&&\n", "\n"));
 
             classificationFile.close();
             String warningFreeString = "";

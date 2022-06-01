@@ -1,0 +1,41 @@
+Removing src/ClassifyCounterexamples$1.class
+Removing src/ClassifyCounterexamples.class
+Removing src/classify/Classifier.class
+Removing src/classify/Counterexample.class
+Removing src/classify/CounterexampleClass.class
+Removing src/classify/ExprOrTimeTuple.class
+Removing src/classify/Solution.class
+Removing src/classify/TimeExprTuple.class
+Removing src/classify/WarningReporter.class
+> Start Parsing	1.4601666666666666E-7 minutes elapsed.
+> Completed Parsing	0.004389236816666667 minutes elapsed.
+> Starting Command CheckEventuallyAliceAndBobCommunicateWithEachOther	0.004408095066666667 minutes elapsed.
+OS _ ARCH = 'Linux' - 'amd64'
+Found = 'amd64-linux
+Found native lib 'jar:file:/home/colevick/Documents/research/AttackClassification/alloy/allAlloyChanges.jar!/amd64-linux/libminisatprover.so'
+>> Completed Running Command and Found Counterexample!	0.017608328233333335 minutes elapsed.
+Flushing tmp files
+> Writing Facts for Counterexample	0.029688211916666665 minutes elapsed.
+> Completed Writing Facts	0.07788741110000001 minutes elapsed.
+> Handling Warnings	0.07788937915 minutes elapsed.
+> Handling Warnings	0.13707733265 minutes elapsed.
+> Completed Handling Warnings	0.1690521683 minutes elapsed.
+> Completed Handling Warnings	0.16905407393333333 minutes elapsed.
+> Minimizing Counterexample Facts	0.16905484593333334 minutes elapsed.
+>> Checking if Generated Facts are Sufficient for Violation	0.16905727381666666 minutes elapsed.
+>> UNSAT, Generated Facts are Sufficient for Violation	0.19290477498333333 minutes elapsed.
+> Completed Minimization	0.19291909688333334 minutes elapsed.
+> Handling Warnings	0.1931864675 minutes elapsed.
+> Completed Handling Warnings	0.19383657381666666 minutes elapsed.
+> Handling Warnings	0.19385678320000002 minutes elapsed.
+> Completed Handling Warnings	0.19450060723333334 minutes elapsed.
+> Starting Command CheckEventuallyAliceAndBobCommunicateWithEachOther	0.19450262428333334 minutes elapsed.
+> Completed Command and Found NO Counterexample!	0.22249636448333332 minutes elapsed.
+> Checking Redundancy	0.2224984385 minutes elapsed.
+> Start Parsing	0.22250466336666666 minutes elapsed.
+> Completed Parsing	0.22314440773333333 minutes elapsed.
+> Starting Command CheckEventuallyAliceAndBobCommunicateWithEachOther	0.22314625598333335 minutes elapsed.
+>> Completed Running Command and Found Counterexample!	0.22750793063333333 minutes elapsed.
+> Handling Warnings	0.2340240326 minutes elapsed.
+> Completed Handling Warnings	0.2346045289 minutes elapsed.
+Classification at /home/colevick/Documents/research/AttackClassification/alloy/needhamSchroederPublicKeyClassification.als	0.23462328018333334 minutes elapsed.

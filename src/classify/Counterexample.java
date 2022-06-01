@@ -44,6 +44,7 @@ public class Counterexample {
     private List<Func> relations = new ArrayList<Func>();
     private Set<Expr> core;
     private String factString;
+    private Pattern timeQuantPattern;
 
     /**
      * Builds a Counterexample instance by setting Time, Sigs, and Fields.
@@ -55,6 +56,7 @@ public class Counterexample {
     public Counterexample(final A4Solution a,
                           final List<Func> relations) {
         this.ans = a;
+        this.timeQuantPattern = Pattern.compile("[t]*[0-9]|[t]*[0-9][0-9]");
         this.setTimes();
         this.setSigsAndFields();
         this.relations = relations;
@@ -156,28 +158,29 @@ public class Counterexample {
             }
         }
         for (ExprVar time : this.times) {
+            System.out.println(time);
             for (PrimSig sig : this.stringToSig.values()) {
                 List<Field> fields = this.getFields(sig);
                 for (Field field : fields) {
                     if (field.join(time).type().arity() > 1) {
                         ExprVar timeParam = this.timeAtomToTimeVars.get(time);
                         TimeExprTuple timeTuple = new TimeExprTuple(
-                                sig.join(field.join(timeParam)),
-                                sig.join(field.join(time)));
+                                                                    sig.join(field.join(timeParam)),
+                                                                    sig.join(field.join(time)));
                         this.timedFields.add(timeTuple);
                         SafeList<Field> innerTimedFields = field.type().
-                                                                fold().
-                                                                get(0).
-                                                                get(1).
-                                                                getFields();
+                            fold().
+                            get(0).
+                            get(1).
+                            getFields();
                         for (Field innerTimedField : innerTimedFields) {
                             TimeExprTuple innerTimeTuple = new TimeExprTuple(
-                                    sig.join(
-                                        field.join(timeParam).
-                                        join(innerTimedField)),
-                                    sig.join(
-                                        field.join(time).
-                                        join(innerTimedField)));
+                                                                             sig.join(
+                                                                                      field.join(timeParam).
+                                                                                      join(innerTimedField)),
+                                                                             sig.join(
+                                                                                      field.join(time).
+                                                                                      join(innerTimedField)));
                             this.timedFields.add(innerTimeTuple);
                         }
                     } else {
@@ -211,7 +214,7 @@ public class Counterexample {
         List<OperatorVariable> opVars = this.getOperatorVariables();
         for (Func rel : this.relations) {
             List<List<ExprOrTimeTuple>> paramLists = this.
-                                findAllMatchingParameters(opVars, rel.params());
+                findAllMatchingParameters(opVars, rel.params());
             for (List<ExprOrTimeTuple> paramList : paramLists) {
                 List<Expr> paramExprList = new ArrayList<>();
                 for (ExprOrTimeTuple param : paramList) {
@@ -231,7 +234,7 @@ public class Counterexample {
         }
         this.factsAndFormulas.putAll(facts);
     }
-    
+
     /**
      * Checks whether sigs, fields, or timedFields are the same type as the
      * parameters of a predicate.
@@ -239,8 +242,8 @@ public class Counterexample {
      * @return a list of matching parameters
      */
     private List<List<ExprOrTimeTuple>> findAllMatchingParameters(
-                                        final List<OperatorVariable> opVars,
-                                        final List<ExprVar> params) {
+                                                                  final List<OperatorVariable> opVars,
+                                                                  final List<ExprVar> params) {
         List<List<ExprOrTimeTuple>> potentialMatches = new ArrayList<>();
         for (ExprVar param : params) {
             Type paramType = param.type();
@@ -315,7 +318,7 @@ public class Counterexample {
             this.print("Relation evaluation exception: ", e);
             return false;
         }
-    } 
+    }
 
     private <E> void print(final String prefix, final E obj) {
         System.out.println(prefix + obj.toString());
@@ -330,7 +333,7 @@ public class Counterexample {
     }
 
     /**
-     * @return generate fact string for all facts in a counterexample, also 
+     * @return generate fact string for all facts in a counterexample, also
      * updates to returning the core fact string after the core is set
      */
     public final String getFactString() {
@@ -340,6 +343,7 @@ public class Counterexample {
                 for (Expr coreExpr : this.core) {
                     factStrings.add(coreExpr.toString());
                 }
+                java.util.Collections.sort(factStrings);
                 this.factString = this.factStringGenerator(factStrings);
             }
             return this.factString;
@@ -360,7 +364,9 @@ public class Counterexample {
         int numTimes = 0;
         String fString = this.getFactString();
         for (Expr timeExpr : timeVars) {
-            if (fString.contains(timeExpr.toString())) {
+            String teSpace = timeExpr.toString() + " ";
+            String teNewline = timeExpr.toString() + "\n";
+            if (fString.contains(teSpace) || fString.contains(teNewline)) {
                 if (numTimes == 0) {
                     timeString += timeExpr.toString();
                     numTimes++;
@@ -405,12 +411,17 @@ public class Counterexample {
             .replace("Message -> Messagekey", "key")
             .replace(" Message ", "")
             .replace("=. key", "= Message.key")
-	    .replace("=. inner_key", "= Message.inner_key")
-	    .replace("=. process", "= Message.process")
+            .replace("=. inner_key", "= Message.inner_key")
+            .replace("=. process", "= Message.process")
             .replace(".m", "m")
             .replace(".k", "k")
             .replace("Messagekey", "Message.key")
-            .replace("Message.secret", "secret");
+            .replace("Message.secret", "secret")
+            .replace("Message.sender", "sender")
+            .replace("Channelmsg", "msg")
+            .replace("Channel  msg", "msg")
+            .replace("Participant.read", "read")
+            .replace("Participant  read", "read");
         return formattedString;
     }
 
@@ -424,7 +435,6 @@ public class Counterexample {
     private String factStringGenerator(final List<String> facts) {
         String factString = "";
         boolean containsTimeQuantifier = false;
-        
         for (int i = 0; i < facts.size(); i++) {
             String formula = facts.get(i);
             String formulaString = this.formatFormula(formula);
@@ -446,8 +456,7 @@ public class Counterexample {
     }
 
     private boolean checkTimeQuantPattern(String testString) {
-        Pattern timeQuantPattern = Pattern.compile("[t]*[0-9]|[t]*[0-9][0-9]");
-        Matcher m = timeQuantPattern.matcher(testString);
+        Matcher m = this.timeQuantPattern.matcher(testString);
         return m.find();
     }
 

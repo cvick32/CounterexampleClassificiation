@@ -1,0 +1,1190 @@
+Removing src/ClassifyCounterexamples$1.class
+Removing src/ClassifyCounterexamples.class
+Removing src/classify/Classifier.class
+Removing src/classify/Counterexample.class
+Removing src/classify/CounterexampleClass.class
+Removing src/classify/ExprOrTimeTuple.class
+Removing src/classify/Solution.class
+Removing src/classify/TimeExprTuple.class
+Removing src/classify/WarningReporter.class
+> Start Parsing	2.2995E-7 minutes elapsed.
+> Completed Parsing	0.003594414816666667 minutes elapsed.
+> Starting Command CheckEventuallyAliceAndBobCommunicateWithEachOther	0.0036516782000000003 minutes elapsed.
+>> Completed Running Command and Found Counterexample!	0.011485525233333332 minutes elapsed.
+Flushing tmp files
+java.lang.NullPointerException
+> Writing Facts for Counterexample	0.01381476395 minutes elapsed.
+> Completed Writing Facts	0.017374108616666665 minutes elapsed.
+> Handling Warnings	0.017375715216666664 minutes elapsed.
+> Handling Warnings	0.024966370266666666 minutes elapsed.
+> Completed Handling Warnings	0.030643500216666668 minutes elapsed.
+> Completed Handling Warnings	0.030645468633333332 minutes elapsed.
+> Minimizing Counterexample Facts	0.030646324216666666 minutes elapsed.
+>> Checking if Generated Facts are Sufficient for Violation	0.030648427083333332 minutes elapsed.
+>> UNSAT, Generated Facts are Sufficient for Violation	0.03846587426666667 minutes elapsed.
+> Completed Minimization	0.03850535545 minutes elapsed.
+> Handling Warnings	0.038805602616666664 minutes elapsed.
+> Completed Handling Warnings	0.03938239653333333 minutes elapsed.
+> Handling Warnings	0.039404661783333336 minutes elapsed.
+> Completed Handling Warnings	0.03989054973333333 minutes elapsed.
+> Starting Command CheckEventuallyAliceAndBobCommunicateWithEachOther	0.03989200691666666 minutes elapsed.
+>> Completed Running Command and Found Counterexample!	0.04487256215 minutes elapsed.
+Flushing tmp files
+java.lang.NullPointerException
+> Writing Facts for Counterexample	0.04593576675 minutes elapsed.
+> Completed Writing Facts	0.04780162538333333 minutes elapsed.
+> Handling Warnings	0.04780270313333333 minutes elapsed.
+> Handling Warnings	0.05234427155 minutes elapsed.
+> Completed Handling Warnings	0.05609633233333333 minutes elapsed.
+> Completed Handling Warnings	0.05609816931666667 minutes elapsed.
+> Minimizing Counterexample Facts	0.05609878395 minutes elapsed.
+>> Checking if Generated Facts are Sufficient for Violation	0.05610013803333334 minutes elapsed.
+>> UNSAT, Generated Facts are Sufficient for Violation	0.06042204711666667 minutes elapsed.
+> Completed Minimization	0.06043083693333333 minutes elapsed.
+> Handling Warnings	0.060443844350000005 minutes elapsed.
+> Completed Handling Warnings	0.060822911699999996 minutes elapsed.
+> Handling Warnings	0.060835141583333335 minutes elapsed.
+> Completed Handling Warnings	0.061201493583333336 minutes elapsed.
+> Starting Command CheckEventuallyAliceAndBobCommunicateWithEachOther	0.061203635683333334 minutes elapsed.
+>> Completed Running Command and Found Counterexample!	0.0646483992 minutes elapsed.
+Flushing tmp files
+java.lang.NullPointerException
+> Writing Facts for Counterexample	0.06550503831666667 minutes elapsed.
+> Completed Writing Facts	0.06689952251666667 minutes elapsed.
+> Handling Warnings	0.06690052423333334 minutes elapsed.
+> Handling Warnings	0.07095315596666667 minutes elapsed.
+> Completed Handling Warnings	0.07451667821666666 minutes elapsed.
+> Completed Handling Warnings	0.0745192256 minutes elapsed.
+> Minimizing Counterexample Facts	0.07451992696666668 minutes elapsed.
+>> Checking if Generated Facts are Sufficient for Violation	0.074521109 minutes elapsed.
+>> UNSAT, Generated Facts are Sufficient for Violation	0.07712509616666667 minutes elapsed.
+> Completed Minimization	0.07713070463333334 minutes elapsed.
+> Handling Warnings	0.07714232416666666 minutes elapsed.
+> Completed Handling Warnings	0.07751606201666666 minutes elapsed.
+> Handling Warnings	0.07752645743333333 minutes elapsed.
+> Completed Handling Warnings	0.0779006751 minutes elapsed.
+> Starting Command CheckEventuallyAliceAndBobCommunicateWithEachOther	0.0779030648 minutes elapsed.
+>> Completed Running Command and Found Counterexample!	0.08168407976666667 minutes elapsed.
+Flushing tmp files
+java.lang.NullPointerException
+> Writing Facts for Counterexample	0.08235037233333334 minutes elapsed.
+> Completed Writing Facts	0.0833527415 minutes elapsed.
+> Handling Warnings	0.08335399175 minutes elapsed.
+> Handling Warnings	0.08734191573333333 minutes elapsed.
+> Completed Handling Warnings	0.09100405880000001 minutes elapsed.
+> Completed Handling Warnings	0.09100569711666666 minutes elapsed.
+> Minimizing Counterexample Facts	0.09100616938333334 minutes elapsed.
+>> Checking if Generated Facts are Sufficient for Violation	0.09100715883333334 minutes elapsed.
+>> UNSAT, Generated Facts are Sufficient for Violation	0.09673123696666666 minutes elapsed.
+> Completed Minimization	0.09673485546666667 minutes elapsed.
+> Handling Warnings	0.09674635761666667 minutes elapsed.
+> Completed Handling Warnings	0.09711529761666667 minutes elapsed.
+> Handling Warnings	0.09712486321666666 minutes elapsed.
+> Completed Handling Warnings	0.09749023161666666 minutes elapsed.
+> Starting Command CheckEventuallyAliceAndBobCommunicateWithEachOther	0.09749195108333333 minutes elapsed.
+>> Completed Running Command and Found Counterexample!	0.10100084546666667 minutes elapsed.
+Flushing tmp files
+java.lang.NullPointerException
+> Writing Facts for Counterexample	0.1015785692 minutes elapsed.
+> Completed Writing Facts	0.10261299971666667 minutes elapsed.
+> Handling Warnings	0.1026149325 minutes elapsed.
+> Handling Warnings	0.10667671313333332 minutes elapsed.
+> Completed Handling Warnings	0.11037595708333334 minutes elapsed.
+> Completed Handling Warnings	0.11037810311666667 minutes elapsed.
+> Minimizing Counterexample Facts	0.11037854981666667 minutes elapsed.
+>> Checking if Generated Facts are Sufficient for Violation	0.11037964896666666 minutes elapsed.
+>> UNSAT, Generated Facts are Sufficient for Violation	0.11584872546666666 minutes elapsed.
+> Completed Minimization	0.11585144776666666 minutes elapsed.
+> Handling Warnings	0.11586158816666667 minutes elapsed.
+> Completed Handling Warnings	0.11623083465 minutes elapsed.
+> Handling Warnings	0.11624075393333334 minutes elapsed.
+> Completed Handling Warnings	0.11661112118333333 minutes elapsed.
+> Starting Command CheckEventuallyAliceAndBobCommunicateWithEachOther	0.11661266796666667 minutes elapsed.
+>> Completed Running Command and Found Counterexample!	0.11990607938333334 minutes elapsed.
+Flushing tmp files
+java.lang.NullPointerException
+> Writing Facts for Counterexample	0.12079769396666666 minutes elapsed.
+> Completed Writing Facts	0.12167941298333333 minutes elapsed.
+> Handling Warnings	0.12168077285 minutes elapsed.
+> Handling Warnings	0.12471257036666666 minutes elapsed.
+> Completed Handling Warnings	0.12748127776666665 minutes elapsed.
+> Completed Handling Warnings	0.12748309236666666 minutes elapsed.
+> Minimizing Counterexample Facts	0.12748352576666666 minutes elapsed.
+>> Checking if Generated Facts are Sufficient for Violation	0.12748446623333334 minutes elapsed.
+>> UNSAT, Generated Facts are Sufficient for Violation	0.12930238203333333 minutes elapsed.
+> Completed Minimization	0.12930518448333334 minutes elapsed.
+> Handling Warnings	0.12931456781666667 minutes elapsed.
+> Completed Handling Warnings	0.12967810925 minutes elapsed.
+> Handling Warnings	0.12968867128333333 minutes elapsed.
+> Completed Handling Warnings	0.13006159251666666 minutes elapsed.
+> Starting Command CheckEventuallyAliceAndBobCommunicateWithEachOther	0.13006309030000002 minutes elapsed.
+>> Completed Running Command and Found Counterexample!	0.13348667911666665 minutes elapsed.
+Flushing tmp files
+java.lang.NullPointerException
+> Writing Facts for Counterexample	0.13398986455 minutes elapsed.
+> Completed Writing Facts	0.13485798068333335 minutes elapsed.
+> Handling Warnings	0.13485879935 minutes elapsed.
+> Handling Warnings	0.13866620145 minutes elapsed.
+> Completed Handling Warnings	0.14201439946666666 minutes elapsed.
+> Completed Handling Warnings	0.14201589146666665 minutes elapsed.
+> Minimizing Counterexample Facts	0.14201671956666667 minutes elapsed.
+>> Checking if Generated Facts are Sufficient for Violation	0.1420176631 minutes elapsed.
+>> UNSAT, Generated Facts are Sufficient for Violation	0.14422873191666669 minutes elapsed.
+> Completed Minimization	0.14423613198333335 minutes elapsed.
+> Handling Warnings	0.14424651166666666 minutes elapsed.
+> Completed Handling Warnings	0.14462711938333334 minutes elapsed.
+> Handling Warnings	0.14463702081666666 minutes elapsed.
+> Completed Handling Warnings	0.1450128119 minutes elapsed.
+> Starting Command CheckEventuallyAliceAndBobCommunicateWithEachOther	0.14501453105 minutes elapsed.
+>> Completed Running Command and Found Counterexample!	0.14863179448333333 minutes elapsed.
+Flushing tmp files
+java.lang.NullPointerException
+> Writing Facts for Counterexample	0.149094867 minutes elapsed.
+> Completed Writing Facts	0.14999058913333335 minutes elapsed.
+> Handling Warnings	0.14999143668333334 minutes elapsed.
+> Handling Warnings	0.15392086200000002 minutes elapsed.
+> Completed Handling Warnings	0.1574356153833333 minutes elapsed.
+> Completed Handling Warnings	0.15743719386666666 minutes elapsed.
+> Minimizing Counterexample Facts	0.15743762113333334 minutes elapsed.
+>> Checking if Generated Facts are Sufficient for Violation	0.15743872511666668 minutes elapsed.
+>> UNSAT, Generated Facts are Sufficient for Violation	0.1599682735 minutes elapsed.
+> Completed Minimization	0.15997849603333333 minutes elapsed.
+> Handling Warnings	0.1599892703 minutes elapsed.
+> Completed Handling Warnings	0.16038234501666665 minutes elapsed.
+> Handling Warnings	0.16039251263333335 minutes elapsed.
+> Completed Handling Warnings	0.1607821019 minutes elapsed.
+> Starting Command CheckEventuallyAliceAndBobCommunicateWithEachOther	0.1607835673 minutes elapsed.
+>> Completed Running Command and Found Counterexample!	0.17195528686666667 minutes elapsed.
+Flushing tmp files
+java.lang.NullPointerException
+> Writing Facts for Counterexample	0.17239926719999998 minutes elapsed.
+> Completed Writing Facts	0.17357173045 minutes elapsed.
+> Handling Warnings	0.17357294374999999 minutes elapsed.
+> Handling Warnings	0.1788684222 minutes elapsed.
+> Completed Handling Warnings	0.18322043378333333 minutes elapsed.
+> Completed Handling Warnings	0.18322169001666666 minutes elapsed.
+> Minimizing Counterexample Facts	0.18322208028333334 minutes elapsed.
+>> Checking if Generated Facts are Sufficient for Violation	0.1832230574833333 minutes elapsed.
+>> UNSAT, Generated Facts are Sufficient for Violation	0.18578473076666666 minutes elapsed.
+> Completed Minimization	0.18578991821666666 minutes elapsed.
+> Handling Warnings	0.1858013214 minutes elapsed.
+> Completed Handling Warnings	0.18626363676666668 minutes elapsed.
+> Handling Warnings	0.1862738652 minutes elapsed.
+> Completed Handling Warnings	0.1866857516333333 minutes elapsed.
+> Starting Command CheckEventuallyAliceAndBobCommunicateWithEachOther	0.18668914636666667 minutes elapsed.
+>> Completed Running Command and Found Counterexample!	0.19756425835 minutes elapsed.
+Flushing tmp files
+java.lang.NullPointerException
+> Writing Facts for Counterexample	0.19801159224999998 minutes elapsed.
+> Completed Writing Facts	0.1987047968 minutes elapsed.
+> Handling Warnings	0.19870600561666668 minutes elapsed.
+> Handling Warnings	0.20173195258333332 minutes elapsed.
+> Completed Handling Warnings	0.2045374746 minutes elapsed.
+> Completed Handling Warnings	0.20453897021666664 minutes elapsed.
+> Minimizing Counterexample Facts	0.20453936425 minutes elapsed.
+>> Checking if Generated Facts are Sufficient for Violation	0.20454033056666668 minutes elapsed.
+>> UNSAT, Generated Facts are Sufficient for Violation	0.2063709978 minutes elapsed.
+> Completed Minimization	0.2063746061 minutes elapsed.
+> Handling Warnings	0.20638484363333334 minutes elapsed.
+> Completed Handling Warnings	0.20678610778333334 minutes elapsed.
+> Handling Warnings	0.20679630973333335 minutes elapsed.
+> Completed Handling Warnings	0.20719359275 minutes elapsed.
+> Starting Command CheckEventuallyAliceAndBobCommunicateWithEachOther	0.20719496095 minutes elapsed.
+>> Completed Running Command and Found Counterexample!	0.21825944636666667 minutes elapsed.
+Flushing tmp files
+java.lang.NullPointerException
+> Writing Facts for Counterexample	0.21869726555 minutes elapsed.
+> Completed Writing Facts	0.22030358371666667 minutes elapsed.
+> Handling Warnings	0.2203044454 minutes elapsed.
+> Handling Warnings	0.22415244806666665 minutes elapsed.
+> Completed Handling Warnings	0.22748982216666666 minutes elapsed.
+> Completed Handling Warnings	0.22749123873333332 minutes elapsed.
+> Minimizing Counterexample Facts	0.2274917865 minutes elapsed.
+>> Checking if Generated Facts are Sufficient for Violation	0.22749311751666665 minutes elapsed.
+>> UNSAT, Generated Facts are Sufficient for Violation	0.2295290588 minutes elapsed.
+> Completed Minimization	0.22953280195 minutes elapsed.
+> Handling Warnings	0.22954496041666667 minutes elapsed.
+> Completed Handling Warnings	0.22995485976666666 minutes elapsed.
+> Handling Warnings	0.2299662561 minutes elapsed.
+> Completed Handling Warnings	0.2303755012 minutes elapsed.
+> Starting Command CheckEventuallyAliceAndBobCommunicateWithEachOther	0.23037687411666666 minutes elapsed.
+>> Completed Running Command and Found Counterexample!	0.24169850318333333 minutes elapsed.
+Flushing tmp files
+java.lang.NullPointerException
+> Writing Facts for Counterexample	0.24213233356666666 minutes elapsed.
+> Completed Writing Facts	0.24313755973333334 minutes elapsed.
+> Handling Warnings	0.24313829511666668 minutes elapsed.
+> Handling Warnings	0.24698123028333333 minutes elapsed.
+> Completed Handling Warnings	0.2507123594833333 minutes elapsed.
+> Completed Handling Warnings	0.25071371905 minutes elapsed.
+> Minimizing Counterexample Facts	0.2507140481166667 minutes elapsed.
+>> Checking if Generated Facts are Sufficient for Violation	0.25071487583333335 minutes elapsed.
+>> UNSAT, Generated Facts are Sufficient for Violation	0.2529272068666667 minutes elapsed.
+> Completed Minimization	0.25293127475 minutes elapsed.
+> Handling Warnings	0.25294094256666666 minutes elapsed.
+> Completed Handling Warnings	0.25335942813333334 minutes elapsed.
+> Handling Warnings	0.2533699149 minutes elapsed.
+> Completed Handling Warnings	0.2538022009 minutes elapsed.
+> Starting Command CheckEventuallyAliceAndBobCommunicateWithEachOther	0.25380408325000003 minutes elapsed.
+>> Completed Running Command and Found Counterexample!	0.2668966057166667 minutes elapsed.
+Flushing tmp files
+java.lang.NullPointerException
+> Writing Facts for Counterexample	0.2675857026833333 minutes elapsed.
+> Completed Writing Facts	0.2685035357333333 minutes elapsed.
+> Handling Warnings	0.2685046808166666 minutes elapsed.
+> Handling Warnings	0.2723406241 minutes elapsed.
+> Completed Handling Warnings	0.27560289785 minutes elapsed.
+> Completed Handling Warnings	0.27560437303333335 minutes elapsed.
+> Minimizing Counterexample Facts	0.27560469493333334 minutes elapsed.
+>> Checking if Generated Facts are Sufficient for Violation	0.2756061436 minutes elapsed.
+>> UNSAT, Generated Facts are Sufficient for Violation	0.27780192835 minutes elapsed.
+> Completed Minimization	0.2778066330333333 minutes elapsed.
+> Handling Warnings	0.2778168216 minutes elapsed.
+> Completed Handling Warnings	0.2782492799 minutes elapsed.
+> Handling Warnings	0.2782597591666667 minutes elapsed.
+> Completed Handling Warnings	0.2787030772333334 minutes elapsed.
+> Starting Command CheckEventuallyAliceAndBobCommunicateWithEachOther	0.2787050258166667 minutes elapsed.
+>> Completed Running Command and Found Counterexample!	0.2913502949333333 minutes elapsed.
+Flushing tmp files
+java.lang.NullPointerException
+> Writing Facts for Counterexample	0.29179007375 minutes elapsed.
+> Completed Writing Facts	0.29290563784999996 minutes elapsed.
+> Handling Warnings	0.29290635865 minutes elapsed.
+> Handling Warnings	0.29680711735000004 minutes elapsed.
+> Completed Handling Warnings	0.30032298576666666 minutes elapsed.
+> Completed Handling Warnings	0.3003244485333333 minutes elapsed.
+> Minimizing Counterexample Facts	0.3003248209666667 minutes elapsed.
+>> Checking if Generated Facts are Sufficient for Violation	0.30032686805 minutes elapsed.
+>> UNSAT, Generated Facts are Sufficient for Violation	0.30248306245 minutes elapsed.
+> Completed Minimization	0.30248571333333335 minutes elapsed.
+> Handling Warnings	0.3024948223 minutes elapsed.
+> Completed Handling Warnings	0.3029306862833333 minutes elapsed.
+> Handling Warnings	0.3029415119 minutes elapsed.
+> Completed Handling Warnings	0.3033782687 minutes elapsed.
+> Starting Command CheckEventuallyAliceAndBobCommunicateWithEachOther	0.30337961501666666 minutes elapsed.
+>> Completed Running Command and Found Counterexample!	0.3173433715333333 minutes elapsed.
+Flushing tmp files
+java.lang.NullPointerException
+> Writing Facts for Counterexample	0.31776467438333333 minutes elapsed.
+> Completed Writing Facts	0.31897992244999995 minutes elapsed.
+> Handling Warnings	0.3189814622 minutes elapsed.
+> Handling Warnings	0.322880425 minutes elapsed.
+> Completed Handling Warnings	0.32644864191666667 minutes elapsed.
+> Completed Handling Warnings	0.32644998663333336 minutes elapsed.
+> Minimizing Counterexample Facts	0.3264600212 minutes elapsed.
+>> Checking if Generated Facts are Sufficient for Violation	0.32646118505000005 minutes elapsed.
+>> UNSAT, Generated Facts are Sufficient for Violation	0.3291196371333333 minutes elapsed.
+> Completed Minimization	0.32912224635 minutes elapsed.
+> Handling Warnings	0.32913180205 minutes elapsed.
+> Completed Handling Warnings	0.3295890283 minutes elapsed.
+> Handling Warnings	0.3295998861833333 minutes elapsed.
+> Completed Handling Warnings	0.3300593893333333 minutes elapsed.
+> Starting Command CheckEventuallyAliceAndBobCommunicateWithEachOther	0.33006088128333333 minutes elapsed.
+>> Completed Running Command and Found Counterexample!	0.34310198340000003 minutes elapsed.
+Flushing tmp files
+java.lang.NullPointerException
+> Writing Facts for Counterexample	0.34354038206666665 minutes elapsed.
+> Completed Writing Facts	0.34544774065 minutes elapsed.
+> Handling Warnings	0.3454492590666666 minutes elapsed.
+> Handling Warnings	0.35068466926666664 minutes elapsed.
+> Completed Handling Warnings	0.3545855594 minutes elapsed.
+> Completed Handling Warnings	0.35458695678333335 minutes elapsed.
+> Minimizing Counterexample Facts	0.35458729780000003 minutes elapsed.
+>> Checking if Generated Facts are Sufficient for Violation	0.3545880998666667 minutes elapsed.
+>> UNSAT, Generated Facts are Sufficient for Violation	0.35708957243333334 minutes elapsed.
+> Completed Minimization	0.3570940488333333 minutes elapsed.
+> Handling Warnings	0.3571044020833333 minutes elapsed.
+> Completed Handling Warnings	0.35756596243333333 minutes elapsed.
+> Handling Warnings	0.3575762526666667 minutes elapsed.
+> Completed Handling Warnings	0.35804652103333334 minutes elapsed.
+> Starting Command CheckEventuallyAliceAndBobCommunicateWithEachOther	0.3580491347 minutes elapsed.
+>> Completed Running Command and Found Counterexample!	0.3716240181666667 minutes elapsed.
+Flushing tmp files
+java.lang.NullPointerException
+> Writing Facts for Counterexample	0.3728496796833333 minutes elapsed.
+> Completed Writing Facts	0.37401230525 minutes elapsed.
+> Handling Warnings	0.3740134325166667 minutes elapsed.
+> Handling Warnings	0.37740334826666666 minutes elapsed.
+> Completed Handling Warnings	0.38047363863333333 minutes elapsed.
+> Completed Handling Warnings	0.38047492963333335 minutes elapsed.
+> Minimizing Counterexample Facts	0.38047523761666663 minutes elapsed.
+>> Checking if Generated Facts are Sufficient for Violation	0.3804761786166667 minutes elapsed.
+>> UNSAT, Generated Facts are Sufficient for Violation	0.3824405531666667 minutes elapsed.
+> Completed Minimization	0.38244335791666667 minutes elapsed.
+> Handling Warnings	0.3824536391666667 minutes elapsed.
+> Completed Handling Warnings	0.38291998386666665 minutes elapsed.
+> Handling Warnings	0.3829297331 minutes elapsed.
+> Completed Handling Warnings	0.38382605448333335 minutes elapsed.
+> Starting Command CheckEventuallyAliceAndBobCommunicateWithEachOther	0.38382734325 minutes elapsed.
+>> Completed Running Command and Found Counterexample!	0.3978298392833333 minutes elapsed.
+Flushing tmp files
+java.lang.NullPointerException
+> Writing Facts for Counterexample	0.3982527677 minutes elapsed.
+> Completed Writing Facts	0.3997427918833333 minutes elapsed.
+> Handling Warnings	0.3997434517333333 minutes elapsed.
+> Handling Warnings	0.4041476910666667 minutes elapsed.
+> Completed Handling Warnings	0.40808446763333334 minutes elapsed.
+> Completed Handling Warnings	0.4080858773333333 minutes elapsed.
+> Minimizing Counterexample Facts	0.4080863459833333 minutes elapsed.
+>> Checking if Generated Facts are Sufficient for Violation	0.4080878626666667 minutes elapsed.
+>> UNSAT, Generated Facts are Sufficient for Violation	0.41093564644999997 minutes elapsed.
+> Completed Minimization	0.41093935968333334 minutes elapsed.
+> Handling Warnings	0.4109509242166667 minutes elapsed.
+> Completed Handling Warnings	0.41142284645 minutes elapsed.
+> Handling Warnings	0.4114385972833333 minutes elapsed.
+> Completed Handling Warnings	0.41193875153333337 minutes elapsed.
+> Starting Command CheckEventuallyAliceAndBobCommunicateWithEachOther	0.4119400374166667 minutes elapsed.
+>> Completed Running Command and Found Counterexample!	0.42562902706666667 minutes elapsed.
+Flushing tmp files
+java.lang.NullPointerException
+> Writing Facts for Counterexample	0.42607255201666666 minutes elapsed.
+> Completed Writing Facts	0.4272849586 minutes elapsed.
+> Handling Warnings	0.42728561235 minutes elapsed.
+> Handling Warnings	0.43083564758333337 minutes elapsed.
+> Completed Handling Warnings	0.4340197478833333 minutes elapsed.
+> Completed Handling Warnings	0.43402098741666667 minutes elapsed.
+> Minimizing Counterexample Facts	0.4340213226833333 minutes elapsed.
+>> Checking if Generated Facts are Sufficient for Violation	0.4340221479333334 minutes elapsed.
+>> UNSAT, Generated Facts are Sufficient for Violation	0.43605193033333334 minutes elapsed.
+> Completed Minimization	0.43605479468333336 minutes elapsed.
+> Handling Warnings	0.4360647360666666 minutes elapsed.
+> Completed Handling Warnings	0.4365806862666667 minutes elapsed.
+> Handling Warnings	0.43661624633333335 minutes elapsed.
+> Completed Handling Warnings	0.43714247665 minutes elapsed.
+> Starting Command CheckEventuallyAliceAndBobCommunicateWithEachOther	0.4371436163166667 minutes elapsed.
+>> Completed Running Command and Found Counterexample!	0.45119951003333336 minutes elapsed.
+Flushing tmp files
+java.lang.NullPointerException
+> Writing Facts for Counterexample	0.4516414203833333 minutes elapsed.
+> Completed Writing Facts	0.4522721409166667 minutes elapsed.
+> Handling Warnings	0.452272865 minutes elapsed.
+> Handling Warnings	0.45607724568333335 minutes elapsed.
+> Completed Handling Warnings	0.459124386 minutes elapsed.
+> Completed Handling Warnings	0.4591256226 minutes elapsed.
+> Minimizing Counterexample Facts	0.45912589558333333 minutes elapsed.
+>> Checking if Generated Facts are Sufficient for Violation	0.45912658861666666 minutes elapsed.
+>> UNSAT, Generated Facts are Sufficient for Violation	0.4631727821666667 minutes elapsed.
+> Completed Minimization	0.46317444673333336 minutes elapsed.
+> Handling Warnings	0.4631838212 minutes elapsed.
+> Completed Handling Warnings	0.4636616416 minutes elapsed.
+> Handling Warnings	0.46367200136666664 minutes elapsed.
+> Completed Handling Warnings	0.4641575307833333 minutes elapsed.
+> Starting Command CheckEventuallyAliceAndBobCommunicateWithEachOther	0.46415928973333337 minutes elapsed.
+>> Completed Running Command and Found Counterexample!	0.47788413725 minutes elapsed.
+Flushing tmp files
+java.lang.NullPointerException
+> Writing Facts for Counterexample	0.47832051161666667 minutes elapsed.
+> Completed Writing Facts	0.47960074853333334 minutes elapsed.
+> Handling Warnings	0.4796014564166667 minutes elapsed.
+> Handling Warnings	0.4833371285 minutes elapsed.
+> Completed Handling Warnings	0.48672287341666665 minutes elapsed.
+> Completed Handling Warnings	0.48672415388333334 minutes elapsed.
+> Minimizing Counterexample Facts	0.48672449315 minutes elapsed.
+>> Checking if Generated Facts are Sufficient for Violation	0.48672604973333333 minutes elapsed.
+>> UNSAT, Generated Facts are Sufficient for Violation	0.4893824589333333 minutes elapsed.
+> Completed Minimization	0.48938642498333335 minutes elapsed.
+> Handling Warnings	0.4893963560666667 minutes elapsed.
+> Completed Handling Warnings	0.48989905425 minutes elapsed.
+> Handling Warnings	0.4899088426666667 minutes elapsed.
+> Completed Handling Warnings	0.49042233916666667 minutes elapsed.
+> Starting Command CheckEventuallyAliceAndBobCommunicateWithEachOther	0.49042377158333333 minutes elapsed.
+>> Completed Running Command and Found Counterexample!	0.5068845836 minutes elapsed.
+Flushing tmp files
+java.lang.NullPointerException
+> Writing Facts for Counterexample	0.5073385904833334 minutes elapsed.
+> Completed Writing Facts	0.50869851015 minutes elapsed.
+> Handling Warnings	0.5086991940166666 minutes elapsed.
+> Handling Warnings	0.5126288686833333 minutes elapsed.
+> Completed Handling Warnings	0.5170658986666666 minutes elapsed.
+> Completed Handling Warnings	0.5170669341333334 minutes elapsed.
+> Minimizing Counterexample Facts	0.5170676052666666 minutes elapsed.
+>> Checking if Generated Facts are Sufficient for Violation	0.51706843745 minutes elapsed.
+>> UNSAT, Generated Facts are Sufficient for Violation	0.5192474158333333 minutes elapsed.
+> Completed Minimization	0.5192507723166666 minutes elapsed.
+> Handling Warnings	0.5192613166833333 minutes elapsed.
+> Completed Handling Warnings	0.51978494255 minutes elapsed.
+> Handling Warnings	0.5197946479833333 minutes elapsed.
+> Completed Handling Warnings	0.5203321311 minutes elapsed.
+> Starting Command CheckEventuallyAliceAndBobCommunicateWithEachOther	0.5203334943333333 minutes elapsed.
+>> Completed Running Command and Found Counterexample!	0.5378754766166666 minutes elapsed.
+Flushing tmp files
+java.lang.NullPointerException
+> Writing Facts for Counterexample	0.5382932296333334 minutes elapsed.
+> Completed Writing Facts	0.5398517084666667 minutes elapsed.
+> Handling Warnings	0.5398523542833333 minutes elapsed.
+> Handling Warnings	0.54424893155 minutes elapsed.
+> Completed Handling Warnings	0.54867927535 minutes elapsed.
+> Completed Handling Warnings	0.54868112255 minutes elapsed.
+> Minimizing Counterexample Facts	0.5486814307333333 minutes elapsed.
+>> Checking if Generated Facts are Sufficient for Violation	0.54868223195 minutes elapsed.
+>> UNSAT, Generated Facts are Sufficient for Violation	0.5512211509333333 minutes elapsed.
+> Completed Minimization	0.5512245400666667 minutes elapsed.
+> Handling Warnings	0.5512347009666667 minutes elapsed.
+> Completed Handling Warnings	0.5517521028666666 minutes elapsed.
+> Handling Warnings	0.5517628409833333 minutes elapsed.
+> Completed Handling Warnings	0.5522860222666667 minutes elapsed.
+> Starting Command CheckEventuallyAliceAndBobCommunicateWithEachOther	0.5522873014166667 minutes elapsed.
+>> Completed Running Command and Found Counterexample!	0.5698634901166667 minutes elapsed.
+Flushing tmp files
+java.lang.NullPointerException
+> Writing Facts for Counterexample	0.5708026448166666 minutes elapsed.
+> Completed Writing Facts	0.5718766120833333 minutes elapsed.
+> Handling Warnings	0.5718773465000001 minutes elapsed.
+> Handling Warnings	0.5767353857166667 minutes elapsed.
+> Completed Handling Warnings	0.5807066022833334 minutes elapsed.
+> Completed Handling Warnings	0.58070812195 minutes elapsed.
+> Minimizing Counterexample Facts	0.5807085066333334 minutes elapsed.
+>> Checking if Generated Facts are Sufficient for Violation	0.5807093373333333 minutes elapsed.
+>> UNSAT, Generated Facts are Sufficient for Violation	0.5851606627833333 minutes elapsed.
+> Completed Minimization	0.5851622168833334 minutes elapsed.
+> Handling Warnings	0.58517216595 minutes elapsed.
+> Completed Handling Warnings	0.5857012176 minutes elapsed.
+> Handling Warnings	0.5857123274 minutes elapsed.
+> Completed Handling Warnings	0.5862409106833333 minutes elapsed.
+> Starting Command CheckEventuallyAliceAndBobCommunicateWithEachOther	0.5862424188500001 minutes elapsed.
+>> Completed Running Command and Found Counterexample!	0.60340518155 minutes elapsed.
+Flushing tmp files
+java.lang.NullPointerException
+> Writing Facts for Counterexample	0.6038062623333332 minutes elapsed.
+> Completed Writing Facts	0.6047158053333334 minutes elapsed.
+> Handling Warnings	0.60471634225 minutes elapsed.
+> Handling Warnings	0.6092468056666667 minutes elapsed.
+> Completed Handling Warnings	0.6129834886666666 minutes elapsed.
+> Completed Handling Warnings	0.6129845071 minutes elapsed.
+> Minimizing Counterexample Facts	0.6129851349166666 minutes elapsed.
+>> Checking if Generated Facts are Sufficient for Violation	0.6129862273833333 minutes elapsed.
+>> UNSAT, Generated Facts are Sufficient for Violation	0.61528905755 minutes elapsed.
+> Completed Minimization	0.61529182335 minutes elapsed.
+> Handling Warnings	0.6153016027166667 minutes elapsed.
+> Completed Handling Warnings	0.6158357683166666 minutes elapsed.
+> Handling Warnings	0.6158457590499999 minutes elapsed.
+> Completed Handling Warnings	0.6163869403500001 minutes elapsed.
+> Starting Command CheckEventuallyAliceAndBobCommunicateWithEachOther	0.6163884833166667 minutes elapsed.
+>> Completed Running Command and Found Counterexample!	0.6421014218500001 minutes elapsed.
+Flushing tmp files
+java.lang.NullPointerException
+> Writing Facts for Counterexample	0.642500851 minutes elapsed.
+> Completed Writing Facts	0.6438957008666667 minutes elapsed.
+> Handling Warnings	0.6438961988166666 minutes elapsed.
+> Handling Warnings	0.6483271018666666 minutes elapsed.
+> Completed Handling Warnings	0.6527180370666666 minutes elapsed.
+> Completed Handling Warnings	0.6527190718333333 minutes elapsed.
+> Minimizing Counterexample Facts	0.6527192971166667 minutes elapsed.
+>> Checking if Generated Facts are Sufficient for Violation	0.6527200591166668 minutes elapsed.
+>> UNSAT, Generated Facts are Sufficient for Violation	0.6550503169499999 minutes elapsed.
+> Completed Minimization	0.6550531622833333 minutes elapsed.
+> Handling Warnings	0.6550643737833333 minutes elapsed.
+> Completed Handling Warnings	0.65561483585 minutes elapsed.
+> Handling Warnings	0.6556252206166667 minutes elapsed.
+> Completed Handling Warnings	0.6561899970166666 minutes elapsed.
+> Starting Command CheckEventuallyAliceAndBobCommunicateWithEachOther	0.6561912518166667 minutes elapsed.
+>> Completed Running Command and Found Counterexample!	0.6836340154999999 minutes elapsed.
+Flushing tmp files
+java.lang.NullPointerException
+> Writing Facts for Counterexample	0.6841844180333333 minutes elapsed.
+> Completed Writing Facts	0.6860886616666666 minutes elapsed.
+> Handling Warnings	0.6860892214500001 minutes elapsed.
+> Handling Warnings	0.6919856769833334 minutes elapsed.
+> Completed Handling Warnings	0.6967348951333334 minutes elapsed.
+> Completed Handling Warnings	0.6967359010166666 minutes elapsed.
+> Minimizing Counterexample Facts	0.6967361140499999 minutes elapsed.
+>> Checking if Generated Facts are Sufficient for Violation	0.6967367924333333 minutes elapsed.
+>> UNSAT, Generated Facts are Sufficient for Violation	0.69941779505 minutes elapsed.
+> Completed Minimization	0.6994215798333333 minutes elapsed.
+> Handling Warnings	0.6994322832000001 minutes elapsed.
+> Completed Handling Warnings	0.7000210157166666 minutes elapsed.
+> Handling Warnings	0.7000311331833333 minutes elapsed.
+> Completed Handling Warnings	0.70061003105 minutes elapsed.
+> Starting Command CheckEventuallyAliceAndBobCommunicateWithEachOther	0.7006112624333334 minutes elapsed.
+>> Completed Running Command and Found Counterexample!	0.7284021835333333 minutes elapsed.
+Flushing tmp files
+java.lang.NullPointerException
+> Writing Facts for Counterexample	0.7287907588 minutes elapsed.
+> Completed Writing Facts	0.73025680265 minutes elapsed.
+> Handling Warnings	0.7302572934666667 minutes elapsed.
+> Handling Warnings	0.73466394505 minutes elapsed.
+> Completed Handling Warnings	0.73904353535 minutes elapsed.
+> Completed Handling Warnings	0.7390444639166667 minutes elapsed.
+> Minimizing Counterexample Facts	0.7390446989666667 minutes elapsed.
+>> Checking if Generated Facts are Sufficient for Violation	0.7390453755333334 minutes elapsed.
+>> UNSAT, Generated Facts are Sufficient for Violation	0.7412557749833333 minutes elapsed.
+> Completed Minimization	0.74125837715 minutes elapsed.
+> Handling Warnings	0.7412681454333333 minutes elapsed.
+> Completed Handling Warnings	0.7418448844000001 minutes elapsed.
+> Handling Warnings	0.7418548804 minutes elapsed.
+> Completed Handling Warnings	0.7424454793833333 minutes elapsed.
+> Starting Command CheckEventuallyAliceAndBobCommunicateWithEachOther	0.74244729615 minutes elapsed.
+>> Completed Running Command and Found Counterexample!	0.7705089467666667 minutes elapsed.
+Flushing tmp files
+java.lang.NullPointerException
+> Writing Facts for Counterexample	0.77091277945 minutes elapsed.
+> Completed Writing Facts	0.7722892459666666 minutes elapsed.
+> Handling Warnings	0.7722897509000001 minutes elapsed.
+> Handling Warnings	0.7766602527666666 minutes elapsed.
+> Completed Handling Warnings	0.7805279991666667 minutes elapsed.
+> Completed Handling Warnings	0.7805290481833332 minutes elapsed.
+> Minimizing Counterexample Facts	0.7805292573 minutes elapsed.
+>> Checking if Generated Facts are Sufficient for Violation	0.7805300603 minutes elapsed.
+>> UNSAT, Generated Facts are Sufficient for Violation	0.7827690138166666 minutes elapsed.
+> Completed Minimization	0.7827714927499999 minutes elapsed.
+> Handling Warnings	0.7827818889333333 minutes elapsed.
+> Completed Handling Warnings	0.7833471000833333 minutes elapsed.
+> Handling Warnings	0.7833573821166666 minutes elapsed.
+> Completed Handling Warnings	0.7839428071166666 minutes elapsed.
+> Starting Command CheckEventuallyAliceAndBobCommunicateWithEachOther	0.7839441547333333 minutes elapsed.
+>> Completed Running Command and Found Counterexample!	0.8132726255833334 minutes elapsed.
+Flushing tmp files
+java.lang.NullPointerException
+> Writing Facts for Counterexample	0.8136581961 minutes elapsed.
+> Completed Writing Facts	0.81523961385 minutes elapsed.
+> Handling Warnings	0.8152401221666667 minutes elapsed.
+> Handling Warnings	0.8199416371333333 minutes elapsed.
+> Completed Handling Warnings	0.8242231151 minutes elapsed.
+> Completed Handling Warnings	0.8242243072833334 minutes elapsed.
+> Minimizing Counterexample Facts	0.8242245838833333 minutes elapsed.
+>> Checking if Generated Facts are Sufficient for Violation	0.8242255758166667 minutes elapsed.
+>> UNSAT, Generated Facts are Sufficient for Violation	0.8266664270833334 minutes elapsed.
+> Completed Minimization	0.8266687184833333 minutes elapsed.
+> Handling Warnings	0.8266788192166667 minutes elapsed.
+> Completed Handling Warnings	0.8272652970333334 minutes elapsed.
+> Handling Warnings	0.8272753974 minutes elapsed.
+> Completed Handling Warnings	0.8278866941333334 minutes elapsed.
+> Starting Command CheckEventuallyAliceAndBobCommunicateWithEachOther	0.8278879813333333 minutes elapsed.
+>> Completed Running Command and Found Counterexample!	0.8601476449833334 minutes elapsed.
+Flushing tmp files
+java.lang.NullPointerException
+> Writing Facts for Counterexample	0.8605457241 minutes elapsed.
+> Completed Writing Facts	0.8619135468833333 minutes elapsed.
+> Handling Warnings	0.8619144993333333 minutes elapsed.
+> Handling Warnings	0.8660609941166667 minutes elapsed.
+> Completed Handling Warnings	0.8697728305333333 minutes elapsed.
+> Completed Handling Warnings	0.8697743177166667 minutes elapsed.
+> Minimizing Counterexample Facts	0.8697745445166666 minutes elapsed.
+>> Checking if Generated Facts are Sufficient for Violation	0.8697756786833334 minutes elapsed.
+>> UNSAT, Generated Facts are Sufficient for Violation	0.8719379010166667 minutes elapsed.
+> Completed Minimization	0.87194000425 minutes elapsed.
+> Handling Warnings	0.8719504146333333 minutes elapsed.
+> Completed Handling Warnings	0.8725436462833334 minutes elapsed.
+> Handling Warnings	0.8725537949833334 minutes elapsed.
+> Completed Handling Warnings	0.87316792525 minutes elapsed.
+> Starting Command CheckEventuallyAliceAndBobCommunicateWithEachOther	0.8731691547333333 minutes elapsed.
+>> Completed Running Command and Found Counterexample!	0.9042668650333333 minutes elapsed.
+Flushing tmp files
+java.lang.NullPointerException
+> Writing Facts for Counterexample	0.9046410041833333 minutes elapsed.
+> Completed Writing Facts	0.9063521088666667 minutes elapsed.
+> Handling Warnings	0.9063526163833333 minutes elapsed.
+> Handling Warnings	0.9112597605333334 minutes elapsed.
+> Completed Handling Warnings	0.9162166856166666 minutes elapsed.
+> Completed Handling Warnings	0.9162177542666666 minutes elapsed.
+> Minimizing Counterexample Facts	0.9162179903666666 minutes elapsed.
+>> Checking if Generated Facts are Sufficient for Violation	0.9162187205 minutes elapsed.
+>> UNSAT, Generated Facts are Sufficient for Violation	0.9186460263833334 minutes elapsed.
+> Completed Minimization	0.9186483128333334 minutes elapsed.
+> Handling Warnings	0.9186592560666667 minutes elapsed.
+> Completed Handling Warnings	0.9192748497000001 minutes elapsed.
+> Handling Warnings	0.91928550315 minutes elapsed.
+> Completed Handling Warnings	0.9199110849666667 minutes elapsed.
+> Starting Command CheckEventuallyAliceAndBobCommunicateWithEachOther	0.9199122606333333 minutes elapsed.
+>> Completed Running Command and Found Counterexample!	0.9519640111500001 minutes elapsed.
+Flushing tmp files
+java.lang.NullPointerException
+> Writing Facts for Counterexample	0.9523331623833333 minutes elapsed.
+> Completed Writing Facts	0.9538857491333333 minutes elapsed.
+> Handling Warnings	0.9538862219500001 minutes elapsed.
+> Handling Warnings	0.9592095602666666 minutes elapsed.
+> Completed Handling Warnings	0.9637901780166668 minutes elapsed.
+> Completed Handling Warnings	0.9637912500500001 minutes elapsed.
+> Minimizing Counterexample Facts	0.96379146125 minutes elapsed.
+>> Checking if Generated Facts are Sufficient for Violation	0.9637922448 minutes elapsed.
+>> UNSAT, Generated Facts are Sufficient for Violation	0.9662773102833333 minutes elapsed.
+> Completed Minimization	0.9662802187833334 minutes elapsed.
+> Handling Warnings	0.9662908064500001 minutes elapsed.
+> Completed Handling Warnings	0.9668981692499999 minutes elapsed.
+> Handling Warnings	0.9669104394666667 minutes elapsed.
+> Completed Handling Warnings	0.9675296570666667 minutes elapsed.
+> Starting Command CheckEventuallyAliceAndBobCommunicateWithEachOther	0.9675308487833333 minutes elapsed.
+>> Completed Running Command and Found Counterexample!	1.0009485268833334 minutes elapsed.
+Flushing tmp files
+java.lang.NullPointerException
+> Writing Facts for Counterexample	1.0013368907 minutes elapsed.
+> Completed Writing Facts	1.0027659289333333 minutes elapsed.
+> Handling Warnings	1.0027664408166668 minutes elapsed.
+> Handling Warnings	1.0077196951833334 minutes elapsed.
+> Completed Handling Warnings	1.0117332766333333 minutes elapsed.
+> Completed Handling Warnings	1.0117343334 minutes elapsed.
+> Minimizing Counterexample Facts	1.01173455755 minutes elapsed.
+>> Checking if Generated Facts are Sufficient for Violation	1.01173524955 minutes elapsed.
+>> UNSAT, Generated Facts are Sufficient for Violation	1.01435503955 minutes elapsed.
+> Completed Minimization	1.0143607394333334 minutes elapsed.
+> Handling Warnings	1.0143722813333333 minutes elapsed.
+> Completed Handling Warnings	1.0150172404666666 minutes elapsed.
+> Handling Warnings	1.0150280750166667 minutes elapsed.
+> Completed Handling Warnings	1.0156954844833332 minutes elapsed.
+> Starting Command CheckEventuallyAliceAndBobCommunicateWithEachOther	1.01569657565 minutes elapsed.
+>> Completed Running Command and Found Counterexample!	1.0586214327166668 minutes elapsed.
+Flushing tmp files
+java.lang.NullPointerException
+> Writing Facts for Counterexample	1.0590015510166666 minutes elapsed.
+> Completed Writing Facts	1.0615478090666666 minutes elapsed.
+> Handling Warnings	1.0615490998166668 minutes elapsed.
+> Handling Warnings	1.0673134237666666 minutes elapsed.
+> Completed Handling Warnings	1.0727988192333333 minutes elapsed.
+> Completed Handling Warnings	1.0728000732833334 minutes elapsed.
+> Minimizing Counterexample Facts	1.0728003782 minutes elapsed.
+>> Checking if Generated Facts are Sufficient for Violation	1.0728012092499999 minutes elapsed.
+>> UNSAT, Generated Facts are Sufficient for Violation	1.0754273742 minutes elapsed.
+> Completed Minimization	1.0754294132833333 minutes elapsed.
+> Handling Warnings	1.0754398196666666 minutes elapsed.
+> Completed Handling Warnings	1.0760842746833332 minutes elapsed.
+> Handling Warnings	1.0760947902666667 minutes elapsed.
+> Completed Handling Warnings	1.0767662197333334 minutes elapsed.
+> Starting Command CheckEventuallyAliceAndBobCommunicateWithEachOther	1.0767674936333334 minutes elapsed.
+>> Completed Running Command and Found Counterexample!	1.1185169556666668 minutes elapsed.
+Flushing tmp files
+java.lang.NullPointerException
+> Writing Facts for Counterexample	1.11890449685 minutes elapsed.
+> Completed Writing Facts	1.12022890325 minutes elapsed.
+> Handling Warnings	1.1202293884833334 minutes elapsed.
+> Handling Warnings	1.1251198124833333 minutes elapsed.
+> Completed Handling Warnings	1.12909231755 minutes elapsed.
+> Completed Handling Warnings	1.1290933158166667 minutes elapsed.
+> Minimizing Counterexample Facts	1.1290935357 minutes elapsed.
+>> Checking if Generated Facts are Sufficient for Violation	1.1290943095166668 minutes elapsed.
+>> UNSAT, Generated Facts are Sufficient for Violation	1.1314882299833333 minutes elapsed.
+> Completed Minimization	1.1314941323666665 minutes elapsed.
+> Handling Warnings	1.1315055134 minutes elapsed.
+> Completed Handling Warnings	1.13217311755 minutes elapsed.
+> Handling Warnings	1.13222554795 minutes elapsed.
+> Completed Handling Warnings	1.1329030374 minutes elapsed.
+> Starting Command CheckEventuallyAliceAndBobCommunicateWithEachOther	1.1329041269833333 minutes elapsed.
+>> Completed Running Command and Found Counterexample!	1.1759994370166666 minutes elapsed.
+Flushing tmp files
+java.lang.NullPointerException
+> Writing Facts for Counterexample	1.1763633218833334 minutes elapsed.
+> Completed Writing Facts	1.1780497272166668 minutes elapsed.
+> Handling Warnings	1.1780502279833334 minutes elapsed.
+> Handling Warnings	1.1837252045333335 minutes elapsed.
+> Completed Handling Warnings	1.1884566935166667 minutes elapsed.
+> Completed Handling Warnings	1.18845765455 minutes elapsed.
+> Minimizing Counterexample Facts	1.18845789585 minutes elapsed.
+>> Checking if Generated Facts are Sufficient for Violation	1.18845874595 minutes elapsed.
+>> UNSAT, Generated Facts are Sufficient for Violation	1.1924899503500002 minutes elapsed.
+> Completed Minimization	1.1924921485333333 minutes elapsed.
+> Handling Warnings	1.19250441885 minutes elapsed.
+> Completed Handling Warnings	1.1931983140666667 minutes elapsed.
+> Handling Warnings	1.1932120732 minutes elapsed.
+> Completed Handling Warnings	1.1938843047166665 minutes elapsed.
+> Starting Command CheckEventuallyAliceAndBobCommunicateWithEachOther	1.19388547745 minutes elapsed.
+>> Completed Running Command and Found Counterexample!	1.23846838265 minutes elapsed.
+Flushing tmp files
+java.lang.NullPointerException
+> Writing Facts for Counterexample	1.2388445687666667 minutes elapsed.
+> Completed Writing Facts	1.2403201960666665 minutes elapsed.
+> Handling Warnings	1.2403206785166667 minutes elapsed.
+> Handling Warnings	1.24568786185 minutes elapsed.
+> Completed Handling Warnings	1.2502399645166666 minutes elapsed.
+> Completed Handling Warnings	1.2502409675166668 minutes elapsed.
+> Minimizing Counterexample Facts	1.2502411814666667 minutes elapsed.
+>> Checking if Generated Facts are Sufficient for Violation	1.2502419364 minutes elapsed.
+>> UNSAT, Generated Facts are Sufficient for Violation	1.2526149447500001 minutes elapsed.
+> Completed Minimization	1.2526170954333333 minutes elapsed.
+> Handling Warnings	1.2526320861333333 minutes elapsed.
+> Completed Handling Warnings	1.2532981346333334 minutes elapsed.
+> Handling Warnings	1.2533576420833334 minutes elapsed.
+> Completed Handling Warnings	1.2540733333 minutes elapsed.
+> Starting Command CheckEventuallyAliceAndBobCommunicateWithEachOther	1.2540745856166666 minutes elapsed.
+>> Completed Running Command and Found Counterexample!	1.2974590604166667 minutes elapsed.
+Flushing tmp files
+java.lang.NullPointerException
+> Writing Facts for Counterexample	1.2979610016 minutes elapsed.
+> Completed Writing Facts	1.29979029705 minutes elapsed.
+> Handling Warnings	1.2997908054833334 minutes elapsed.
+> Handling Warnings	1.3055842219166667 minutes elapsed.
+> Completed Handling Warnings	1.3103763926833334 minutes elapsed.
+> Completed Handling Warnings	1.3103775441833332 minutes elapsed.
+> Minimizing Counterexample Facts	1.3103777936166667 minutes elapsed.
+>> Checking if Generated Facts are Sufficient for Violation	1.3103786043499999 minutes elapsed.
+>> UNSAT, Generated Facts are Sufficient for Violation	1.3130686992833334 minutes elapsed.
+> Completed Minimization	1.31307108305 minutes elapsed.
+> Handling Warnings	1.3130817831500001 minutes elapsed.
+> Completed Handling Warnings	1.3137768849333333 minutes elapsed.
+> Handling Warnings	1.3138145321333332 minutes elapsed.
+> Completed Handling Warnings	1.3145295234999999 minutes elapsed.
+> Starting Command CheckEventuallyAliceAndBobCommunicateWithEachOther	1.3145307673666666 minutes elapsed.
+>> Completed Running Command and Found Counterexample!	1.3599182079499998 minutes elapsed.
+Flushing tmp files
+java.lang.NullPointerException
+> Writing Facts for Counterexample	1.36052276025 minutes elapsed.
+> Completed Writing Facts	1.3622794535499998 minutes elapsed.
+> Handling Warnings	1.362280009 minutes elapsed.
+> Handling Warnings	1.36696304865 minutes elapsed.
+> Completed Handling Warnings	1.3717269688166667 minutes elapsed.
+> Completed Handling Warnings	1.3717280271833334 minutes elapsed.
+> Minimizing Counterexample Facts	1.3717282978666667 minutes elapsed.
+>> Checking if Generated Facts are Sufficient for Violation	1.3717293333666667 minutes elapsed.
+>> UNSAT, Generated Facts are Sufficient for Violation	1.3743928373999998 minutes elapsed.
+> Completed Minimization	1.3743967769833332 minutes elapsed.
+> Handling Warnings	1.3744113598166665 minutes elapsed.
+> Completed Handling Warnings	1.3752472753833334 minutes elapsed.
+> Handling Warnings	1.37529343 minutes elapsed.
+> Completed Handling Warnings	1.3761972984666668 minutes elapsed.
+> Starting Command CheckEventuallyAliceAndBobCommunicateWithEachOther	1.3761984604666668 minutes elapsed.
+>> Completed Running Command and Found Counterexample!	1.4215940282166666 minutes elapsed.
+Flushing tmp files
+java.lang.NullPointerException
+> Writing Facts for Counterexample	1.4224646484833334 minutes elapsed.
+> Completed Writing Facts	1.4238180595 minutes elapsed.
+> Handling Warnings	1.4238185599833335 minutes elapsed.
+> Handling Warnings	1.42965311435 minutes elapsed.
+> Completed Handling Warnings	1.4343764066 minutes elapsed.
+> Completed Handling Warnings	1.4343774252000001 minutes elapsed.
+> Minimizing Counterexample Facts	1.4343776542166669 minutes elapsed.
+>> Checking if Generated Facts are Sufficient for Violation	1.4343785063 minutes elapsed.
+>> UNSAT, Generated Facts are Sufficient for Violation	1.4370496116333333 minutes elapsed.
+> Completed Minimization	1.4370525460666668 minutes elapsed.
+> Handling Warnings	1.4370652335333332 minutes elapsed.
+> Completed Handling Warnings	1.4377726450166668 minutes elapsed.
+> Handling Warnings	1.4378116522666666 minutes elapsed.
+> Completed Handling Warnings	1.43853519685 minutes elapsed.
+> Starting Command CheckEventuallyAliceAndBobCommunicateWithEachOther	1.4385364135 minutes elapsed.
+>> Completed Running Command and Found Counterexample!	1.4935692716666666 minutes elapsed.
+Flushing tmp files
+java.lang.NullPointerException
+> Writing Facts for Counterexample	1.49459371365 minutes elapsed.
+> Completed Writing Facts	1.4958583491666666 minutes elapsed.
+> Handling Warnings	1.49585886535 minutes elapsed.
+> Handling Warnings	1.5014834379333335 minutes elapsed.
+> Completed Handling Warnings	1.5070928620166666 minutes elapsed.
+> Completed Handling Warnings	1.5070937565 minutes elapsed.
+> Minimizing Counterexample Facts	1.5070939925833333 minutes elapsed.
+>> Checking if Generated Facts are Sufficient for Violation	1.5070947477333334 minutes elapsed.
+>> UNSAT, Generated Facts are Sufficient for Violation	1.5127130134 minutes elapsed.
+> Completed Minimization	1.5127151002833334 minutes elapsed.
+> Handling Warnings	1.5127259609333334 minutes elapsed.
+> Completed Handling Warnings	1.51344601205 minutes elapsed.
+> Handling Warnings	1.5134563191666668 minutes elapsed.
+> Completed Handling Warnings	1.5141763288666668 minutes elapsed.
+> Starting Command CheckEventuallyAliceAndBobCommunicateWithEachOther	1.5141774622 minutes elapsed.
+>> Completed Running Command and Found Counterexample!	1.57144028635 minutes elapsed.
+Flushing tmp files
+java.lang.NullPointerException
+> Writing Facts for Counterexample	1.5718161415333334 minutes elapsed.
+> Completed Writing Facts	1.5737060332500001 minutes elapsed.
+> Handling Warnings	1.5737066172666667 minutes elapsed.
+> Handling Warnings	1.5795273505 minutes elapsed.
+> Completed Handling Warnings	1.5843377297 minutes elapsed.
+> Completed Handling Warnings	1.5843389729833333 minutes elapsed.
+> Minimizing Counterexample Facts	1.5843392837833332 minutes elapsed.
+>> Checking if Generated Facts are Sufficient for Violation	1.58434006445 minutes elapsed.
+>> UNSAT, Generated Facts are Sufficient for Violation	1.5891939229499998 minutes elapsed.
+> Completed Minimization	1.5891960445166666 minutes elapsed.
+> Handling Warnings	1.58920847715 minutes elapsed.
+> Completed Handling Warnings	1.5899271298666666 minutes elapsed.
+> Handling Warnings	1.5899723273500002 minutes elapsed.
+> Completed Handling Warnings	1.5907787188833333 minutes elapsed.
+> Starting Command CheckEventuallyAliceAndBobCommunicateWithEachOther	1.5907799518833334 minutes elapsed.
+>> Completed Running Command and Found Counterexample!	1.6445549363833334 minutes elapsed.
+Flushing tmp files
+java.lang.NullPointerException
+> Writing Facts for Counterexample	1.6449420697166666 minutes elapsed.
+> Completed Writing Facts	1.6465920044166666 minutes elapsed.
+> Handling Warnings	1.6465925866166666 minutes elapsed.
+> Handling Warnings	1.651959731 minutes elapsed.
+> Completed Handling Warnings	1.656275863 minutes elapsed.
+> Completed Handling Warnings	1.6562770353666667 minutes elapsed.
+> Minimizing Counterexample Facts	1.6562773367166665 minutes elapsed.
+>> Checking if Generated Facts are Sufficient for Violation	1.6562781208500001 minutes elapsed.
+>> UNSAT, Generated Facts are Sufficient for Violation	1.66089243655 minutes elapsed.
+> Completed Minimization	1.6608945056000002 minutes elapsed.
+> Handling Warnings	1.6609056959833335 minutes elapsed.
+> Completed Handling Warnings	1.661696229 minutes elapsed.
+> Handling Warnings	1.6617358223166667 minutes elapsed.
+> Completed Handling Warnings	1.6624863824666667 minutes elapsed.
+> Starting Command CheckEventuallyAliceAndBobCommunicateWithEachOther	1.6624879240666668 minutes elapsed.
+>> Completed Running Command and Found Counterexample!	1.7188347677166667 minutes elapsed.
+Flushing tmp files
+java.lang.NullPointerException
+> Writing Facts for Counterexample	1.7192094307666668 minutes elapsed.
+> Completed Writing Facts	1.7211093155000001 minutes elapsed.
+> Handling Warnings	1.721109906 minutes elapsed.
+> Handling Warnings	1.7270181829 minutes elapsed.
+> Completed Handling Warnings	1.73176942245 minutes elapsed.
+> Completed Handling Warnings	1.7317706421166668 minutes elapsed.
+> Minimizing Counterexample Facts	1.7317709454666668 minutes elapsed.
+>> Checking if Generated Facts are Sufficient for Violation	1.7317717620833333 minutes elapsed.
+>> UNSAT, Generated Facts are Sufficient for Violation	1.73432402035 minutes elapsed.
+> Completed Minimization	1.7343270717666668 minutes elapsed.
+> Handling Warnings	1.7343389527666666 minutes elapsed.
+> Completed Handling Warnings	1.7350626517833334 minutes elapsed.
+> Handling Warnings	1.7351056099333335 minutes elapsed.
+> Completed Handling Warnings	1.7359208952833332 minutes elapsed.
+> Starting Command CheckEventuallyAliceAndBobCommunicateWithEachOther	1.7359223358 minutes elapsed.
+>> Completed Running Command and Found Counterexample!	1.79124231995 minutes elapsed.
+Flushing tmp files
+java.lang.NullPointerException
+> Writing Facts for Counterexample	1.7916109351833331 minutes elapsed.
+> Completed Writing Facts	1.7936553348 minutes elapsed.
+> Handling Warnings	1.7936559471 minutes elapsed.
+> Handling Warnings	1.7997370357666667 minutes elapsed.
+> Completed Handling Warnings	1.8046378197333333 minutes elapsed.
+> Completed Handling Warnings	1.80463889395 minutes elapsed.
+> Minimizing Counterexample Facts	1.8046391128333332 minutes elapsed.
+>> Checking if Generated Facts are Sufficient for Violation	1.8046399273333333 minutes elapsed.
+>> UNSAT, Generated Facts are Sufficient for Violation	1.8071890538666666 minutes elapsed.
+> Completed Minimization	1.80719130875 minutes elapsed.
+> Handling Warnings	1.8072026069333333 minutes elapsed.
+> Completed Handling Warnings	1.8079349397 minutes elapsed.
+> Handling Warnings	1.8079765596333333 minutes elapsed.
+> Completed Handling Warnings	1.8087887410999999 minutes elapsed.
+> Starting Command CheckEventuallyAliceAndBobCommunicateWithEachOther	1.8087899121833333 minutes elapsed.
+>> Completed Running Command and Found Counterexample!	1.86493895255 minutes elapsed.
+Flushing tmp files
+java.lang.NullPointerException
+> Writing Facts for Counterexample	1.86531076505 minutes elapsed.
+> Completed Writing Facts	1.8671870182666666 minutes elapsed.
+> Handling Warnings	1.8671875459666665 minutes elapsed.
+> Handling Warnings	1.87417716215 minutes elapsed.
+> Completed Handling Warnings	1.8790152289 minutes elapsed.
+> Completed Handling Warnings	1.87901618175 minutes elapsed.
+> Minimizing Counterexample Facts	1.8790163966333333 minutes elapsed.
+>> Checking if Generated Facts are Sufficient for Violation	1.8790171411166667 minutes elapsed.
+>> UNSAT, Generated Facts are Sufficient for Violation	1.8844757351166666 minutes elapsed.
+> Completed Minimization	1.8844785484 minutes elapsed.
+> Handling Warnings	1.8844909067666669 minutes elapsed.
+> Completed Handling Warnings	1.8852447338166667 minutes elapsed.
+> Handling Warnings	1.8852884690666667 minutes elapsed.
+> Completed Handling Warnings	1.8860857733333334 minutes elapsed.
+> Starting Command CheckEventuallyAliceAndBobCommunicateWithEachOther	1.8860869655499999 minutes elapsed.
+>> Completed Running Command and Found Counterexample!	1.9423158973166668 minutes elapsed.
+Flushing tmp files
+java.lang.NullPointerException
+> Writing Facts for Counterexample	1.94269054975 minutes elapsed.
+> Completed Writing Facts	1.94448074235 minutes elapsed.
+> Handling Warnings	1.944481305 minutes elapsed.
+> Handling Warnings	1.9501940226333334 minutes elapsed.
+> Completed Handling Warnings	1.95491892435 minutes elapsed.
+> Completed Handling Warnings	1.9549199994000002 minutes elapsed.
+> Minimizing Counterexample Facts	1.9549202187333334 minutes elapsed.
+>> Checking if Generated Facts are Sufficient for Violation	1.9549209370166667 minutes elapsed.
+>> UNSAT, Generated Facts are Sufficient for Violation	1.9595361470000001 minutes elapsed.
+> Completed Minimization	1.9595380888166667 minutes elapsed.
+> Handling Warnings	1.9595488804333334 minutes elapsed.
+> Completed Handling Warnings	1.9603021111166667 minutes elapsed.
+> Handling Warnings	1.9603442501833332 minutes elapsed.
+> Completed Handling Warnings	1.9611089953333334 minutes elapsed.
+> Starting Command CheckEventuallyAliceAndBobCommunicateWithEachOther	1.9611101839833334 minutes elapsed.
+>> Completed Running Command and Found Counterexample!	2.0168602334 minutes elapsed.
+Flushing tmp files
+java.lang.NullPointerException
+> Writing Facts for Counterexample	2.0172465366666668 minutes elapsed.
+> Completed Writing Facts	2.0185243397166666 minutes elapsed.
+> Handling Warnings	2.0185248567333334 minutes elapsed.
+> Handling Warnings	2.02287648615 minutes elapsed.
+> Completed Handling Warnings	2.0267994356666668 minutes elapsed.
+> Completed Handling Warnings	2.026800536616667 minutes elapsed.
+> Minimizing Counterexample Facts	2.0268007809666666 minutes elapsed.
+>> Checking if Generated Facts are Sufficient for Violation	2.0268017014666664 minutes elapsed.
+>> UNSAT, Generated Facts are Sufficient for Violation	2.0327849712166666 minutes elapsed.
+> Completed Minimization	2.0327882506666666 minutes elapsed.
+> Handling Warnings	2.0328002594333334 minutes elapsed.
+> Completed Handling Warnings	2.0335964052833333 minutes elapsed.
+> Handling Warnings	2.0336365117333335 minutes elapsed.
+> Completed Handling Warnings	2.0348566509333335 minutes elapsed.
+> Starting Command CheckEventuallyAliceAndBobCommunicateWithEachOther	2.034857687116667 minutes elapsed.
+>> Completed Running Command and Found Counterexample!	2.0942455318666666 minutes elapsed.
+Flushing tmp files
+java.lang.NullPointerException
+> Writing Facts for Counterexample	2.0946072964833333 minutes elapsed.
+> Completed Writing Facts	2.09646314045 minutes elapsed.
+> Handling Warnings	2.096464114433333 minutes elapsed.
+> Handling Warnings	2.10246696715 minutes elapsed.
+> Completed Handling Warnings	2.1074895454333333 minutes elapsed.
+> Completed Handling Warnings	2.107490821133333 minutes elapsed.
+> Minimizing Counterexample Facts	2.1074911150999998 minutes elapsed.
+>> Checking if Generated Facts are Sufficient for Violation	2.1074919467166664 minutes elapsed.
+>> UNSAT, Generated Facts are Sufficient for Violation	2.1121709642333335 minutes elapsed.
+> Completed Minimization	2.1121727154000003 minutes elapsed.
+> Handling Warnings	2.1121842302666667 minutes elapsed.
+> Completed Handling Warnings	2.1129513592833336 minutes elapsed.
+> Handling Warnings	2.11299474495 minutes elapsed.
+> Completed Handling Warnings	2.11378094055 minutes elapsed.
+> Starting Command CheckEventuallyAliceAndBobCommunicateWithEachOther	2.11378232325 minutes elapsed.
+>> Completed Running Command and Found Counterexample!	2.1714825185333333 minutes elapsed.
+Flushing tmp files
+java.lang.NullPointerException
+> Writing Facts for Counterexample	2.1718590644666667 minutes elapsed.
+> Completed Writing Facts	2.1732704412333335 minutes elapsed.
+> Handling Warnings	2.173271025833333 minutes elapsed.
+> Handling Warnings	2.1787171108333334 minutes elapsed.
+> Completed Handling Warnings	2.183504018016667 minutes elapsed.
+> Completed Handling Warnings	2.1835052490833333 minutes elapsed.
+> Minimizing Counterexample Facts	2.1835055457333334 minutes elapsed.
+>> Checking if Generated Facts are Sufficient for Violation	2.18350646705 minutes elapsed.
+> SAT, but Checking if Alloy GUI says it's SAT.
+CheckEventuallyAliceAndBobCommunicateWithEachOther
+EventuallyAliceAndBobCommunicateWithEachOther
+> Completed Minimization	2.210723982533333 minutes elapsed.
+> Handling Warnings	2.21073979375 minutes elapsed.
+> Completed Handling Warnings	2.211511825283333 minutes elapsed.
+> Handling Warnings	2.2115252198 minutes elapsed.
+> Completed Handling Warnings	2.212320647183333 minutes elapsed.
+> Starting Command CheckEventuallyAliceAndBobCommunicateWithEachOther	2.2123221455333333 minutes elapsed.
+> Completed Command and Found NO Counterexample!	2.3175051782666665 minutes elapsed.
+> Checking Redundancy	2.3175067157333333 minutes elapsed.
+> Start Parsing	2.3175599633833333 minutes elapsed.
+> Completed Parsing	2.3183406864166667 minutes elapsed.
+> Starting Command CheckEventuallyAliceAndBobCommunicateWithEachOther	2.31834203585 minutes elapsed.
+> Completed Command and Found NO Counterexample!	2.4228132774333333 minutes elapsed.
+>> Redundant Class Removed!	2.42281494115 minutes elapsed.
+> Start Parsing	2.422853783016667 minutes elapsed.
+> Completed Parsing	2.4236301108666667 minutes elapsed.
+> Starting Command CheckEventuallyAliceAndBobCommunicateWithEachOther	2.42363154735 minutes elapsed.
+> Completed Command and Found NO Counterexample!	2.5257655719999996 minutes elapsed.
+>> Redundant Class Removed!	2.52576716545 minutes elapsed.
+> Start Parsing	2.5258100390166667 minutes elapsed.
+> Completed Parsing	2.52660065855 minutes elapsed.
+> Starting Command CheckEventuallyAliceAndBobCommunicateWithEachOther	2.5266020346166664 minutes elapsed.
+> Completed Command and Found NO Counterexample!	2.63171430405 minutes elapsed.
+>> Redundant Class Removed!	2.6317154563666665 minutes elapsed.
+> Start Parsing	2.6317584821333333 minutes elapsed.
+> Completed Parsing	2.63257838475 minutes elapsed.
+> Starting Command CheckEventuallyAliceAndBobCommunicateWithEachOther	2.6325797446666663 minutes elapsed.
+> Completed Command and Found NO Counterexample!	2.7368759247166663 minutes elapsed.
+>> Redundant Class Removed!	2.7368768582 minutes elapsed.
+> Start Parsing	2.736887546833333 minutes elapsed.
+> Completed Parsing	2.7376269970333333 minutes elapsed.
+> Starting Command CheckEventuallyAliceAndBobCommunicateWithEachOther	2.7376285851166666 minutes elapsed.
+>> Completed Running Command and Found Counterexample!	2.7923480221166668 minutes elapsed.
+> Start Parsing	2.792764952866667 minutes elapsed.
+> Completed Parsing	2.7935100488333333 minutes elapsed.
+> Starting Command CheckEventuallyAliceAndBobCommunicateWithEachOther	2.7935112055333335 minutes elapsed.
+> Completed Command and Found NO Counterexample!	2.89822980555 minutes elapsed.
+>> Redundant Class Removed!	2.8982306262499997 minutes elapsed.
+> Start Parsing	2.8982422657 minutes elapsed.
+> Completed Parsing	2.8989651238833334 minutes elapsed.
+> Starting Command CheckEventuallyAliceAndBobCommunicateWithEachOther	2.8989662792999997 minutes elapsed.
+> Completed Command and Found NO Counterexample!	3.0018152981 minutes elapsed.
+>> Redundant Class Removed!	3.0018162181833334 minutes elapsed.
+> Start Parsing	3.0018566807166667 minutes elapsed.
+> Completed Parsing	3.0026340688 minutes elapsed.
+> Starting Command CheckEventuallyAliceAndBobCommunicateWithEachOther	3.002635253333333 minutes elapsed.
+> Completed Command and Found NO Counterexample!	3.0926834403833334 minutes elapsed.
+>> Redundant Class Removed!	3.0926845546833333 minutes elapsed.
+> Start Parsing	3.0926952363666667 minutes elapsed.
+> Completed Parsing	3.0934034093833334 minutes elapsed.
+> Starting Command CheckEventuallyAliceAndBobCommunicateWithEachOther	3.09340474835 minutes elapsed.
+> Completed Command and Found NO Counterexample!	3.1829141071 minutes elapsed.
+>> Redundant Class Removed!	3.1829151919666665 minutes elapsed.
+> Start Parsing	3.1829600893166665 minutes elapsed.
+> Completed Parsing	3.1837107893666663 minutes elapsed.
+> Starting Command CheckEventuallyAliceAndBobCommunicateWithEachOther	3.1837121517 minutes elapsed.
+> Completed Command and Found NO Counterexample!	3.274143438233333 minutes elapsed.
+>> Redundant Class Removed!	3.274144493333333 minutes elapsed.
+> Start Parsing	3.27418354515 minutes elapsed.
+> Completed Parsing	3.2748726861999997 minutes elapsed.
+> Starting Command CheckEventuallyAliceAndBobCommunicateWithEachOther	3.2748740226166664 minutes elapsed.
+> Completed Command and Found NO Counterexample!	3.364426610233333 minutes elapsed.
+>> Redundant Class Removed!	3.3644276711499996 minutes elapsed.
+> Start Parsing	3.36446758345 minutes elapsed.
+> Completed Parsing	3.3652101702 minutes elapsed.
+> Starting Command CheckEventuallyAliceAndBobCommunicateWithEachOther	3.365211554 minutes elapsed.
+> Completed Command and Found NO Counterexample!	3.4544989314333336 minutes elapsed.
+>> Redundant Class Removed!	3.4545000714833334 minutes elapsed.
+> Start Parsing	3.45454073405 minutes elapsed.
+> Completed Parsing	3.4552088868166666 minutes elapsed.
+> Starting Command CheckEventuallyAliceAndBobCommunicateWithEachOther	3.45521022275 minutes elapsed.
+> Completed Command and Found NO Counterexample!	3.5420530478499996 minutes elapsed.
+>> Redundant Class Removed!	3.5420540943 minutes elapsed.
+> Start Parsing	3.5420952121666667 minutes elapsed.
+> Completed Parsing	3.5427878749833335 minutes elapsed.
+> Starting Command CheckEventuallyAliceAndBobCommunicateWithEachOther	3.5427892625833333 minutes elapsed.
+> Completed Command and Found NO Counterexample!	3.6314188282499997 minutes elapsed.
+>> Redundant Class Removed!	3.63142006065 minutes elapsed.
+> Start Parsing	3.6314302556666664 minutes elapsed.
+> Completed Parsing	3.632070560433333 minutes elapsed.
+> Starting Command CheckEventuallyAliceAndBobCommunicateWithEachOther	3.6320718488833332 minutes elapsed.
+> Completed Command and Found NO Counterexample!	3.7184932114 minutes elapsed.
+>> Redundant Class Removed!	3.71849437365 minutes elapsed.
+> Start Parsing	3.7185337300833337 minutes elapsed.
+> Completed Parsing	3.7192018314333333 minutes elapsed.
+> Starting Command CheckEventuallyAliceAndBobCommunicateWithEachOther	3.71920303985 minutes elapsed.
+> Completed Command and Found NO Counterexample!	3.8064910879166667 minutes elapsed.
+>> Redundant Class Removed!	3.80649198025 minutes elapsed.
+> Start Parsing	3.80653295235 minutes elapsed.
+> Completed Parsing	3.8071838649333336 minutes elapsed.
+> Starting Command CheckEventuallyAliceAndBobCommunicateWithEachOther	3.8071850812166668 minutes elapsed.
+> Completed Command and Found NO Counterexample!	3.8922429962333336 minutes elapsed.
+>> Redundant Class Removed!	3.892243934216667 minutes elapsed.
+> Start Parsing	3.8922817234333333 minutes elapsed.
+> Completed Parsing	3.8929056939 minutes elapsed.
+> Starting Command CheckEventuallyAliceAndBobCommunicateWithEachOther	3.8929068471 minutes elapsed.
+> Completed Command and Found NO Counterexample!	3.9789893969 minutes elapsed.
+>> Redundant Class Removed!	3.9789903299000002 minutes elapsed.
+> Start Parsing	3.979029478616667 minutes elapsed.
+> Completed Parsing	3.9796433514166667 minutes elapsed.
+> Starting Command CheckEventuallyAliceAndBobCommunicateWithEachOther	3.9796445153500004 minutes elapsed.
+> Completed Command and Found NO Counterexample!	4.064819094983333 minutes elapsed.
+>> Redundant Class Removed!	4.064820357833333 minutes elapsed.
+> Start Parsing	4.064830679316667 minutes elapsed.
+> Completed Parsing	4.0654520689 minutes elapsed.
+> Starting Command CheckEventuallyAliceAndBobCommunicateWithEachOther	4.0654534561 minutes elapsed.
+> Completed Command and Found NO Counterexample!	4.151422138333333 minutes elapsed.
+>> Redundant Class Removed!	4.151423216683333 minutes elapsed.
+> Start Parsing	4.1514659015 minutes elapsed.
+> Completed Parsing	4.152118076916667 minutes elapsed.
+> Starting Command CheckEventuallyAliceAndBobCommunicateWithEachOther	4.152119579616667 minutes elapsed.
+> Completed Command and Found NO Counterexample!	4.233369847183334 minutes elapsed.
+>> Redundant Class Removed!	4.233371075216667 minutes elapsed.
+> Start Parsing	4.233407394033334 minutes elapsed.
+> Completed Parsing	4.234004580416667 minutes elapsed.
+> Starting Command CheckEventuallyAliceAndBobCommunicateWithEachOther	4.234005871016667 minutes elapsed.
+> Completed Command and Found NO Counterexample!	4.315211924683334 minutes elapsed.
+>> Redundant Class Removed!	4.315213045966667 minutes elapsed.
+> Start Parsing	4.31525331125 minutes elapsed.
+> Completed Parsing	4.31583425875 minutes elapsed.
+> Starting Command CheckEventuallyAliceAndBobCommunicateWithEachOther	4.315835596816667 minutes elapsed.
+> Completed Command and Found NO Counterexample!	4.39549291995 minutes elapsed.
+>> Redundant Class Removed!	4.395494030966666 minutes elapsed.
+> Start Parsing	4.395535013833333 minutes elapsed.
+> Completed Parsing	4.39614680515 minutes elapsed.
+> Starting Command CheckEventuallyAliceAndBobCommunicateWithEachOther	4.396148352949999 minutes elapsed.
+> Completed Command and Found NO Counterexample!	4.47802516945 minutes elapsed.
+>> Redundant Class Removed!	4.478026402633334 minutes elapsed.
+> Start Parsing	4.4780657775999995 minutes elapsed.
+> Completed Parsing	4.47861987105 minutes elapsed.
+> Starting Command CheckEventuallyAliceAndBobCommunicateWithEachOther	4.4786212252 minutes elapsed.
+> Completed Command and Found NO Counterexample!	4.544464451216667 minutes elapsed.
+>> Redundant Class Removed!	4.544465603083333 minutes elapsed.
+> Start Parsing	4.544507183633333 minutes elapsed.
+> Completed Parsing	4.54509687765 minutes elapsed.
+> Starting Command CheckEventuallyAliceAndBobCommunicateWithEachOther	4.5450982772333335 minutes elapsed.
+> Completed Command and Found NO Counterexample!	4.612016061066667 minutes elapsed.
+>> Redundant Class Removed!	4.612017252399999 minutes elapsed.
+> Start Parsing	4.6120584682 minutes elapsed.
+> Completed Parsing	4.6126477607 minutes elapsed.
+> Starting Command CheckEventuallyAliceAndBobCommunicateWithEachOther	4.6126491919 minutes elapsed.
+> Completed Command and Found NO Counterexample!	4.673845412733333 minutes elapsed.
+>> Redundant Class Removed!	4.6738467151 minutes elapsed.
+> Start Parsing	4.673886233616667 minutes elapsed.
+> Completed Parsing	4.6744211785 minutes elapsed.
+> Starting Command CheckEventuallyAliceAndBobCommunicateWithEachOther	4.674422363583333 minutes elapsed.
+> Completed Command and Found NO Counterexample!	4.737553312749999 minutes elapsed.
+>> Redundant Class Removed!	4.737554237166666 minutes elapsed.
+> Start Parsing	4.737589814866666 minutes elapsed.
+> Completed Parsing	4.7381378633999995 minutes elapsed.
+> Starting Command CheckEventuallyAliceAndBobCommunicateWithEachOther	4.738139230083333 minutes elapsed.
+> Completed Command and Found NO Counterexample!	4.79986300805 minutes elapsed.
+>> Redundant Class Removed!	4.799863981416666 minutes elapsed.
+> Start Parsing	4.7999029521 minutes elapsed.
+> Completed Parsing	4.800415057116667 minutes elapsed.
+> Starting Command CheckEventuallyAliceAndBobCommunicateWithEachOther	4.800416233133333 minutes elapsed.
+> Completed Command and Found NO Counterexample!	4.858372264583334 minutes elapsed.
+>> Redundant Class Removed!	4.8583731752 minutes elapsed.
+> Start Parsing	4.858412147866667 minutes elapsed.
+> Completed Parsing	4.8589967422 minutes elapsed.
+> Starting Command CheckEventuallyAliceAndBobCommunicateWithEachOther	4.858997914116667 minutes elapsed.
+> Completed Command and Found NO Counterexample!	4.91768073335 minutes elapsed.
+>> Redundant Class Removed!	4.917681514416667 minutes elapsed.
+> Start Parsing	4.917689858466667 minutes elapsed.
+> Completed Parsing	4.918190455916667 minutes elapsed.
+> Starting Command CheckEventuallyAliceAndBobCommunicateWithEachOther	4.918191531616667 minutes elapsed.
+> Completed Command and Found NO Counterexample!	4.974487571599999 minutes elapsed.
+>> Redundant Class Removed!	4.974488499783333 minutes elapsed.
+> Start Parsing	4.974527862533334 minutes elapsed.
+> Completed Parsing	4.975000838566667 minutes elapsed.
+> Starting Command CheckEventuallyAliceAndBobCommunicateWithEachOther	4.975001979533333 minutes elapsed.
+> Completed Command and Found NO Counterexample!	5.0279876876000005 minutes elapsed.
+>> Redundant Class Removed!	5.0279887087 minutes elapsed.
+> Start Parsing	5.0280284206833326 minutes elapsed.
+> Completed Parsing	5.02849443935 minutes elapsed.
+> Starting Command CheckEventuallyAliceAndBobCommunicateWithEachOther	5.02849560525 minutes elapsed.
+> Completed Command and Found NO Counterexample!	5.068404082883333 minutes elapsed.
+>> Redundant Class Removed!	5.0684052669833335 minutes elapsed.
+> Start Parsing	5.068444302933333 minutes elapsed.
+> Completed Parsing	5.068954872933333 minutes elapsed.
+> Starting Command CheckEventuallyAliceAndBobCommunicateWithEachOther	5.068956187283334 minutes elapsed.
+> Completed Command and Found NO Counterexample!	5.10995461995 minutes elapsed.
+>> Redundant Class Removed!	5.109955685516667 minutes elapsed.
+> Start Parsing	5.1099936245999995 minutes elapsed.
+> Completed Parsing	5.110452374 minutes elapsed.
+> Starting Command CheckEventuallyAliceAndBobCommunicateWithEachOther	5.110454135583334 minutes elapsed.
+> Completed Command and Found NO Counterexample!	5.146447854583333 minutes elapsed.
+>> Redundant Class Removed!	5.146448946216666 minutes elapsed.
+> Start Parsing	5.146487951716667 minutes elapsed.
+> Completed Parsing	5.146906042116667 minutes elapsed.
+> Starting Command CheckEventuallyAliceAndBobCommunicateWithEachOther	5.146907450633334 minutes elapsed.
+> Completed Command and Found NO Counterexample!	5.181658988883333 minutes elapsed.
+>> Redundant Class Removed!	5.181660011066667 minutes elapsed.
+> Start Parsing	5.1816953768500005 minutes elapsed.
+> Completed Parsing	5.182104099666666 minutes elapsed.
+> Starting Command CheckEventuallyAliceAndBobCommunicateWithEachOther	5.182105438616667 minutes elapsed.
+> Completed Command and Found NO Counterexample!	5.21636632185 minutes elapsed.
+>> Redundant Class Removed!	5.216367452916667 minutes elapsed.
+> Start Parsing	5.216406212983333 minutes elapsed.
+> Completed Parsing	5.216809196533333 minutes elapsed.
+> Starting Command CheckEventuallyAliceAndBobCommunicateWithEachOther	5.216810806433333 minutes elapsed.
+> Completed Command and Found NO Counterexample!	5.25027954925 minutes elapsed.
+>> Redundant Class Removed!	5.250280643983333 minutes elapsed.
+> Start Parsing	5.250315288433333 minutes elapsed.
+> Completed Parsing	5.250700477166666 minutes elapsed.
+> Starting Command CheckEventuallyAliceAndBobCommunicateWithEachOther	5.2507017891666665 minutes elapsed.
+> Completed Command and Found NO Counterexample!	5.284817118966667 minutes elapsed.
+>> Redundant Class Removed!	5.284818228000001 minutes elapsed.
+> Start Parsing	5.284856435933333 minutes elapsed.
+> Completed Parsing	5.285237831633333 minutes elapsed.
+> Starting Command CheckEventuallyAliceAndBobCommunicateWithEachOther	5.285239145483334 minutes elapsed.
+> Completed Command and Found NO Counterexample!	5.303387038783333 minutes elapsed.
+>> Redundant Class Removed!	5.303388097216667 minutes elapsed.
+> Start Parsing	5.303396236766667 minutes elapsed.
+> Completed Parsing	5.3037532033 minutes elapsed.
+> Starting Command CheckEventuallyAliceAndBobCommunicateWithEachOther	5.3037545251000004 minutes elapsed.
+> Completed Command and Found NO Counterexample!	5.323015435433334 minutes elapsed.
+>> Redundant Class Removed!	5.323016511133333 minutes elapsed.
+> Start Parsing	5.3230244127 minutes elapsed.
+> Completed Parsing	5.3233856596 minutes elapsed.
+> Starting Command CheckEventuallyAliceAndBobCommunicateWithEachOther	5.323386830183334 minutes elapsed.
+> Completed Command and Found NO Counterexample!	5.341567260683333 minutes elapsed.
+>> Redundant Class Removed!	5.3415683412499995 minutes elapsed.
+> Start Parsing	5.3415760533 minutes elapsed.
+> Completed Parsing	5.341921168333333 minutes elapsed.
+> Starting Command CheckEventuallyAliceAndBobCommunicateWithEachOther	5.3419224522999995 minutes elapsed.
+> Completed Command and Found NO Counterexample!	5.3600666268 minutes elapsed.
+>> Redundant Class Removed!	5.3600676746 minutes elapsed.
+> Start Parsing	5.360074885733334 minutes elapsed.
+> Completed Parsing	5.360414306233333 minutes elapsed.
+> Starting Command CheckEventuallyAliceAndBobCommunicateWithEachOther	5.3604155832 minutes elapsed.
+> Completed Command and Found NO Counterexample!	5.376965928383333 minutes elapsed.
+>> Redundant Class Removed!	5.376967019516667 minutes elapsed.
+> Start Parsing	5.376974550366667 minutes elapsed.
+> Completed Parsing	5.3773070435 minutes elapsed.
+> Starting Command CheckEventuallyAliceAndBobCommunicateWithEachOther	5.377308377916666 minutes elapsed.
+> Completed Command and Found NO Counterexample!	5.392534392533333 minutes elapsed.
+>> Redundant Class Removed!	5.39253545775 minutes elapsed.
+> Start Parsing	5.392542844516667 minutes elapsed.
+> Completed Parsing	5.392863375366667 minutes elapsed.
+> Starting Command CheckEventuallyAliceAndBobCommunicateWithEachOther	5.3928646305 minutes elapsed.
+> Completed Command and Found NO Counterexample!	5.407735111799999 minutes elapsed.
+>> Redundant Class Removed!	5.40773610065 minutes elapsed.
+> Start Parsing	5.407744088016667 minutes elapsed.
+> Completed Parsing	5.4080564002 minutes elapsed.
+> Starting Command CheckEventuallyAliceAndBobCommunicateWithEachOther	5.408057846 minutes elapsed.
+> Completed Command and Found NO Counterexample!	5.423681589616667 minutes elapsed.
+>> Redundant Class Removed!	5.423683115133333 minutes elapsed.
+> Start Parsing	5.423694669283334 minutes elapsed.
+> Completed Parsing	5.4241950078 minutes elapsed.
+> Starting Command CheckEventuallyAliceAndBobCommunicateWithEachOther	5.424196844566667 minutes elapsed.
+> Completed Command and Found NO Counterexample!	5.439028179816666 minutes elapsed.
+>> Redundant Class Removed!	5.4390291246333335 minutes elapsed.
+> Start Parsing	5.4390357005166665 minutes elapsed.
+> Completed Parsing	5.439334477066667 minutes elapsed.
+> Starting Command CheckEventuallyAliceAndBobCommunicateWithEachOther	5.439335736366667 minutes elapsed.
+> Completed Command and Found NO Counterexample!	5.4547174819499995 minutes elapsed.
+>> Redundant Class Removed!	5.454718426166666 minutes elapsed.
+> Start Parsing	5.454724537666666 minutes elapsed.
+> Completed Parsing	5.455031529633334 minutes elapsed.
+> Starting Command CheckEventuallyAliceAndBobCommunicateWithEachOther	5.455033189816667 minutes elapsed.
+>> Completed Running Command and Found Counterexample!	5.456720904366667 minutes elapsed.
+> Handling Warnings	5.457084179933333 minutes elapsed.
+> Completed Handling Warnings	5.457436129016667 minutes elapsed.
+Classification at /Users/colevick/Documents/cs/research/AttackClassification/alloy/needhamSchroederSymmetricClassification.als	5.4574581574500005 minutes elapsed.

@@ -1,0 +1,69 @@
+Removing src/ClassifyCounterexamples$1.class
+Removing src/ClassifyCounterexamples.class
+Removing src/classify/Classifier.class
+Removing src/classify/Counterexample.class
+Removing src/classify/CounterexampleClass.class
+Removing src/classify/ExprOrTimeTuple.class
+Removing src/classify/Solution.class
+Removing src/classify/TimeExprTuple.class
+Removing src/classify/WarningReporter.class
+> Start Parsing	2.1588333333333332E-7 minutes elapsed.
+> Completed Parsing	0.004627755383333334 minutes elapsed.
+> Starting Command CheckEventuallyAliceAndBobCommunicateWithEachOther	0.004645516416666666 minutes elapsed.
+OS _ ARCH = 'Linux' - 'amd64'
+Found = 'amd64-linux
+Found native lib 'jar:file:/home/colevick/Documents/research/AttackClassification/alloy/allAlloyChanges.jar!/amd64-linux/libminisatprover.so'
+>> Completed Running Command and Found Counterexample!	0.01826864568333333 minutes elapsed.
+Flushing tmp files
+> Writing Facts for Counterexample	0.02649520395 minutes elapsed.
+> Completed Writing Facts	0.037936630816666664 minutes elapsed.
+> Handling Warnings	0.037937804549999996 minutes elapsed.
+> Handling Warnings	0.05782213948333333 minutes elapsed.
+> Completed Handling Warnings	0.07287817448333334 minutes elapsed.
+> Completed Handling Warnings	0.0728804992 minutes elapsed.
+> Minimizing Counterexample Facts	0.07288195833333333 minutes elapsed.
+>> Checking if Generated Facts are Sufficient for Violation	0.07288518621666666 minutes elapsed.
+>> UNSAT, Generated Facts are Sufficient for Violation	0.09168462103333333 minutes elapsed.
+> Completed Minimization	0.09169658755 minutes elapsed.
+> Handling Warnings	0.09193405455 minutes elapsed.
+> Completed Handling Warnings	0.0926464823 minutes elapsed.
+> Handling Warnings	0.09266884615 minutes elapsed.
+> Completed Handling Warnings	0.09341181983333334 minutes elapsed.
+> Starting Command CheckEventuallyAliceAndBobCommunicateWithEachOther	0.09341500513333334 minutes elapsed.
+>> Completed Running Command and Found Counterexample!	0.09940795123333333 minutes elapsed.
+Flushing tmp files
+> Writing Facts for Counterexample	0.10344125785 minutes elapsed.
+> Completed Writing Facts	0.11198396731666667 minutes elapsed.
+> Handling Warnings	0.11198461393333334 minutes elapsed.
+> Handling Warnings	0.12323783263333334 minutes elapsed.
+> Completed Handling Warnings	0.13098726343333333 minutes elapsed.
+> Completed Handling Warnings	0.130988782 minutes elapsed.
+> Minimizing Counterexample Facts	0.13098991003333332 minutes elapsed.
+>> Checking if Generated Facts are Sufficient for Violation	0.13099164836666669 minutes elapsed.
+>> UNSAT, Generated Facts are Sufficient for Violation	0.14052673321666667 minutes elapsed.
+> Completed Minimization	0.14053101401666668 minutes elapsed.
+> Handling Warnings	0.14054962206666666 minutes elapsed.
+> Completed Handling Warnings	0.14114803708333332 minutes elapsed.
+> Handling Warnings	0.14115919965 minutes elapsed.
+> Completed Handling Warnings	0.14170398585 minutes elapsed.
+> Starting Command CheckEventuallyAliceAndBobCommunicateWithEachOther	0.1417060405 minutes elapsed.
+>> Completed Running Command and Found Counterexample!	0.14522314808333334 minutes elapsed.
+Flushing tmp files
+> Writing Facts for Counterexample	0.14778936381666666 minutes elapsed.
+> Completed Writing Facts	0.15493284288333334 minutes elapsed.
+> Handling Warnings	0.15493435076666667 minutes elapsed.
+> Handling Warnings	0.16733038333333333 minutes elapsed.
+> Completed Handling Warnings	0.17536426371666666 minutes elapsed.
+> Completed Handling Warnings	0.17536563523333332 minutes elapsed.
+> Minimizing Counterexample Facts	0.17536605819999998 minutes elapsed.
+>> Checking if Generated Facts are Sufficient for Violation	0.17536712513333336 minutes elapsed.
+> SAT, but Checking if Alloy GUI says it's SAT.
+CheckEventuallyAliceAndBobCommunicateWithEachOther
+EventuallyAliceAndBobCommunicateWithEachOther
+>>>>> SAT, NOT expected!
+>>>>>> Given Predicates may be unable to capture violating behavior
+Predicates Used: empty
+relEqualsMessage
+relEqualsProcess
+relEqualsKey
+

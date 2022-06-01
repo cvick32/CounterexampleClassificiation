@@ -1,0 +1,190 @@
+Removing src/ClassifyCounterexamples$1.class
+Removing src/ClassifyCounterexamples.class
+Removing src/classify/Classifier.class
+Removing src/classify/Counter.class
+Removing src/classify/Counterexample.class
+Removing src/classify/CounterexampleClass.class
+Removing src/classify/ExprOrTimeTuple.class
+Removing src/classify/OperatorVariable.class
+Removing src/classify/Solution.class
+Removing src/classify/TimeExprTuple.class
+Removing src/classify/WarningReporter.class
+s/check CheckNoHalfClosedConnectionEst.*/check CheckNoHalfClosedConnectionEst for 8/g ./alloy/tcp.als
+> Start Parsing	1.6737E-5 seconds elapsed.
+> Completed Parsing	0.310456115 seconds elapsed.
+> Searching for Counterexample	0.31332322 seconds elapsed.
+OS _ ARCH = 'Linux' - 'amd64'
+Found = 'amd64-linux
+Found native lib 'jar:file:/home/ubuntu/AttackClassification/alloy/allAlloyChanges.jar!/amd64-linux/libminisatprover.so'
+>> Completed Running Command and Found Counterexample!	1.350855173 seconds elapsed.
+Time$0
+Time$1
+Time$2
+Time$3
+Time$4
+Time$5
+Time$6
+Time$7
+Flushing tmp files
+> Writing Facts for Counterexample	1.372652253 seconds elapsed.
+> Completed Writing Facts	1.384317048 seconds elapsed.
+> Handling Warnings	1.384381446 seconds elapsed.
+> Completed Handling Warnings	1.482122997 seconds elapsed.
+> Minimizing Counterexample Facts	1.482237267 seconds elapsed.
+>> Checking if Generated Facts are Sufficient for Violation	1.482401981 seconds elapsed.
+>>>>> SAT, NOT expected!
+> Trying Power Predicates.
+> Activating Power Predicates
+> Handling Warnings	2.015033324 seconds elapsed.
+> Completed Handling Warnings	2.098720471 seconds elapsed.
+> Searching for Counterexample	2.098830057 seconds elapsed.
+>> Completed Running Command and Found Counterexample!	2.700362946 seconds elapsed.
+Time$0
+Time$1
+Time$2
+Time$3
+Time$4
+Time$5
+Time$6
+Time$7
+Flushing tmp files
+> Writing Facts for Counterexample	2.819430445 seconds elapsed.
+> Completed Writing Facts	2.883835296 seconds elapsed.
+> Handling Warnings	2.883892586 seconds elapsed.
+> Handling Warnings	3.047002437 seconds elapsed.
+> Completed Handling Warnings	3.163577176 seconds elapsed.
+> Completed Handling Warnings	3.163709454 seconds elapsed.
+> Minimizing Counterexample Facts	3.163745707 seconds elapsed.
+>> Checking if Generated Facts are Sufficient for Violation	3.16383861 seconds elapsed.
+>> UNSAT, Generated Facts are Sufficient for Violation	13.723530487 seconds elapsed.
+> Completed Minimization	13.728027411 seconds elapsed.
+> Handling Warnings	13.745536389 seconds elapsed.
+> Completed Handling Warnings	13.789200322 seconds elapsed.
+> Handling Warnings	13.790418377 seconds elapsed.
+> Completed Handling Warnings	13.832212741 seconds elapsed.
+> Searching for Counterexample	13.832323098 seconds elapsed.
+>> Completed Running Command and Found Counterexample!	26.629214105 seconds elapsed.
+Time$0
+Time$1
+Time$2
+Time$3
+Time$4
+Time$5
+Time$6
+Time$7
+Flushing tmp files
+> Writing Facts for Counterexample	26.716739015 seconds elapsed.
+> Completed Writing Facts	26.735225689 seconds elapsed.
+> Handling Warnings	26.735283298 seconds elapsed.
+> Handling Warnings	26.83663499 seconds elapsed.
+> Completed Handling Warnings	26.914970954 seconds elapsed.
+> Completed Handling Warnings	26.915079212 seconds elapsed.
+> Minimizing Counterexample Facts	26.915113385 seconds elapsed.
+>> Checking if Generated Facts are Sufficient for Violation	26.915195624 seconds elapsed.
+>> UNSAT, Generated Facts are Sufficient for Violation	56.180521398 seconds elapsed.
+> Completed Minimization	56.187991424 seconds elapsed.
+> Handling Warnings	56.188948176 seconds elapsed.
+> Completed Handling Warnings	56.24287911 seconds elapsed.
+> Handling Warnings	56.243422237 seconds elapsed.
+> Completed Handling Warnings	56.287857184 seconds elapsed.
+> Searching for Counterexample	56.287955498 seconds elapsed.
+>> Completed Running Command and Found Counterexample!	141.236030824 seconds elapsed.
+Time$0
+Time$1
+Time$2
+Time$3
+Time$4
+Time$5
+Time$6
+Time$7
+Flushing tmp files
+> Writing Facts for Counterexample	141.364028727 seconds elapsed.
+> Completed Writing Facts	141.373756759 seconds elapsed.
+> Handling Warnings	141.373835341 seconds elapsed.
+> Handling Warnings	141.442772714 seconds elapsed.
+> Completed Handling Warnings	141.503905475 seconds elapsed.
+> Completed Handling Warnings	141.503997701 seconds elapsed.
+> Minimizing Counterexample Facts	141.504035219 seconds elapsed.
+>> Checking if Generated Facts are Sufficient for Violation	141.504119835 seconds elapsed.
+>> UNSAT, Generated Facts are Sufficient for Violation	145.715654098 seconds elapsed.
+> Completed Minimization	145.718639715 seconds elapsed.
+> Handling Warnings	145.719411437 seconds elapsed.
+> Completed Handling Warnings	145.753171393 seconds elapsed.
+> Handling Warnings	145.753552814 seconds elapsed.
+> Completed Handling Warnings	145.786935976 seconds elapsed.
+> Searching for Counterexample	145.78701148 seconds elapsed.
+>> Completed Running Command and Found Counterexample!	230.920971105 seconds elapsed.
+Time$0
+Time$1
+Time$2
+Time$3
+Time$4
+Time$5
+Time$6
+Time$7
+Flushing tmp files
+> Writing Facts for Counterexample	231.03029051 seconds elapsed.
+> Completed Writing Facts	231.035867475 seconds elapsed.
+> Handling Warnings	231.035918685 seconds elapsed.
+> Handling Warnings	231.106600746 seconds elapsed.
+> Completed Handling Warnings	231.168939671 seconds elapsed.
+> Completed Handling Warnings	231.169039021 seconds elapsed.
+> Minimizing Counterexample Facts	231.16906717 seconds elapsed.
+>> Checking if Generated Facts are Sufficient for Violation	231.16914323 seconds elapsed.
+>> UNSAT, Generated Facts are Sufficient for Violation	236.003977915 seconds elapsed.
+> Completed Minimization	236.004365077 seconds elapsed.
+> Handling Warnings	236.00496576 seconds elapsed.
+> Completed Handling Warnings	236.044326967 seconds elapsed.
+> Handling Warnings	236.044740904 seconds elapsed.
+> Completed Handling Warnings	236.083157898 seconds elapsed.
+> Searching for Counterexample	236.083245896 seconds elapsed.
+>> Completed Running Command and Found Counterexample!	321.441755734 seconds elapsed.
+Time$0
+Time$1
+Time$2
+Time$3
+Time$4
+Time$5
+Time$6
+Time$7
+Flushing tmp files
+> Writing Facts for Counterexample	321.5530006 seconds elapsed.
+> Completed Writing Facts	321.557760836 seconds elapsed.
+> Handling Warnings	321.557809456 seconds elapsed.
+> Handling Warnings	321.621837117 seconds elapsed.
+> Completed Handling Warnings	321.678935032 seconds elapsed.
+> Completed Handling Warnings	321.679032455 seconds elapsed.
+> Minimizing Counterexample Facts	321.679057239 seconds elapsed.
+>> Checking if Generated Facts are Sufficient for Violation	321.679140521 seconds elapsed.
+>> UNSAT, Generated Facts are Sufficient for Violation	325.97460002 seconds elapsed.
+> Completed Minimization	325.974840594 seconds elapsed.
+> Handling Warnings	325.975456024 seconds elapsed.
+> Completed Handling Warnings	326.010445217 seconds elapsed.
+> Handling Warnings	326.010860157 seconds elapsed.
+> Completed Handling Warnings	326.044655243 seconds elapsed.
+> Searching for Counterexample	326.044751646 seconds elapsed.
+>> Completed Running Command and Found Counterexample!	411.635950304 seconds elapsed.
+Time$0
+Time$1
+Time$2
+Time$3
+Time$4
+Time$5
+Time$6
+Time$7
+Flushing tmp files
+> Writing Facts for Counterexample	411.72448398 seconds elapsed.
+> Completed Writing Facts	411.731521685 seconds elapsed.
+> Handling Warnings	411.731570396 seconds elapsed.
+> Handling Warnings	411.805172801 seconds elapsed.
+> Completed Handling Warnings	411.866822574 seconds elapsed.
+> Completed Handling Warnings	411.866917973 seconds elapsed.
+> Minimizing Counterexample Facts	411.866943201 seconds elapsed.
+>> Checking if Generated Facts are Sufficient for Violation	411.867020014 seconds elapsed.
+>> UNSAT, Generated Facts are Sufficient for Violation	416.002991772 seconds elapsed.
+> Completed Minimization	416.003222539 seconds elapsed.
+> Handling Warnings	416.003706827 seconds elapsed.
+> Completed Handling Warnings	416.03733668 seconds elapsed.
+> Handling Warnings	416.037739184 seconds elapsed.
+> Completed Handling Warnings	416.071405055 seconds elapsed.
+> Searching for Counterexample	416.071494163 seconds elapsed.

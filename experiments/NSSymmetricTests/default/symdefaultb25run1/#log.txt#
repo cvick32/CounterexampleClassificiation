@@ -1,0 +1,75 @@
+Removing src/ClassifyCounterexamples$1.class
+Removing src/ClassifyCounterexamples.class
+Removing src/classify/Classifier.class
+Removing src/classify/Counter.class
+Removing src/classify/Counterexample.class
+Removing src/classify/CounterexampleClass.class
+Removing src/classify/ExprOrTimeTuple.class
+Removing src/classify/OperatorVariable.class
+Removing src/classify/Solution.class
+Removing src/classify/TimeExprTuple.class
+Removing src/classify/WarningReporter.class
+> Start Parsing	2.1797E-5 seconds elapsed.
+> Completed Parsing	0.204898654 seconds elapsed.
+> Searching for Counterexample	0.207723196 seconds elapsed.
+>> Completed Running Command and Found Counterexample!	1.760903493 seconds elapsed.
+Flushing tmp files
+> Writing Facts for Counterexample	1.780671322 seconds elapsed.
+> Completed Writing Facts	1.785416625 seconds elapsed.
+> Handling Warnings	1.785499111 seconds elapsed.
+> Completed Handling Warnings	1.86502141 seconds elapsed.
+> Minimizing Counterexample Facts	1.865246372 seconds elapsed.
+>> Checking if Generated Facts are Sufficient for Violation	1.865470668 seconds elapsed.
+>>>>> SAT, NOT expected!
+> Trying Power Predicates.
+> Activating Power Predicates
+> Handling Warnings	3.715375934 seconds elapsed.
+> Completed Handling Warnings	3.772180929 seconds elapsed.
+> Searching for Counterexample	3.77234759 seconds elapsed.
+>> Completed Running Command and Found Counterexample!	4.027248488 seconds elapsed.
+Flushing tmp files
+> Writing Facts for Counterexample	4.329777236 seconds elapsed.
+> Completed Writing Facts	4.753880128 seconds elapsed.
+> Handling Warnings	4.75395008 seconds elapsed.
+> Handling Warnings	5.433300966 seconds elapsed.
+> Completed Handling Warnings	6.007955629 seconds elapsed.
+> Completed Handling Warnings	6.008107994 seconds elapsed.
+> Minimizing Counterexample Facts	6.008152035 seconds elapsed.
+>> Checking if Generated Facts are Sufficient for Violation	6.008253477 seconds elapsed.
+>> UNSAT, Generated Facts are Sufficient for Violation	10.501966304 seconds elapsed.
+> Completed Minimization	10.502910711 seconds elapsed.
+> Handling Warnings	10.523014338 seconds elapsed.
+> Completed Handling Warnings	10.546838417 seconds elapsed.
+> Handling Warnings	10.547949618 seconds elapsed.
+> Completed Handling Warnings	10.569277392 secon23.ds elapsed.
+> Searching for Counterexample	10.569426384 seconds elapsed.
+>> Completed Running Command and Found Counterexample!	10.679423498 seconds elapsed.
+Flushing tmp files
+> Writing Facts for Counterexample	10.792305689 seconds elapsed.
+> Completed Writing Facts	11.338510896 seconds elapsed.
+> Handling Warnings	11.340316139 seconds elapsed.
+> Handling Warnings	11.98676857 seconds elapsed.
+> Completed Handling Warnings	12.459736441 seconds elapsed.
+> Completed Handling Warnings	12.459841517 seconds elapsed.
+> Minimizing Counterexample Facts	12.459876461 seconds elapsed.
+>> Checking if Generated Facts are Sufficient for Violation	12.459962329 seconds elapsed.
+>> UNSAT, Generated Facts are Sufficient for Violation	16.244410936 seconds elapsed.
+> Completed Minimization	16.24482423 seconds elapsed.
+> Handling Warnings	16.245573604 seconds elapsed.
+> Completed Handling Warnings	16.266085714 seconds elapsed.
+> Handling Warnings	16.266665191 seconds elapsed.
+> Completed Handling Warnings	16.286582988 seconds elapsed.
+> Searching for Counterexample	16.286718854 seconds elapsed.
+> Completed Command and Found NO Counterexample!	16.443832071 seconds elapsed.
+> Checking Redundancy	16.443928246 seconds elapsed.
+> Start Parsing	16.4447489 seconds elapsed.
+> Completed Parsing	16.46435774 seconds elapsed.
+> Searching for Counterexample	16.464528593 seconds elapsed.
+>> Completed Running Command and Found Counterexample!	16.568010794 seconds elapsed.
+> Start Parsing	16.656038571 seconds elapsed.
+> Completed Parsing	16.676172954 seconds elapsed.
+> Searching for Counterexample	16.676281509 seconds elapsed.
+>> Completed Running Command and Found Counterexample!	16.78053061 seconds elapsed.
+> Handling Warnings	16.862642204 seconds elapsed.
+> Completed Handling Warnings	16.884091562 seconds elapsed.
+Classification at /Users/colevick/Documents/cs/research/AttackClassification/alloy/needhamSchroederSymmetricClassification.als	16.885804724 seconds elapsed.

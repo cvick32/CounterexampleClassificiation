@@ -290,6 +290,5 @@ pred EventuallyAliceAndBobCommunicateWithEachOther {
 
 assert CheckEventuallyAliceAndBobCommunicateWithEachOther { // authentication protocol
 	EventuallyAliceAndBobCommunicateWithEachOther
-} check CheckEventuallyAliceAndBobCommunicateWithEachOther for 8
+} check CheckEventuallyAliceAndBobCommunicateWithEachOther for 12
 
-run EventuallyAliceAndBobCommunicateWithEachOther for 8 

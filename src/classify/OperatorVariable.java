@@ -11,7 +11,7 @@ public class OperatorVariable {
     private PrimSig pSig = null;
     private TimeExprTuple timeTuple = null;
     private Type type;
-    
+
     public OperatorVariable(Expr e) {
         this.expr = e;
         this.type = e.type();
@@ -34,8 +34,8 @@ public class OperatorVariable {
 
     public Boolean sameType(final Type paramType) {
         return this.type.equals(paramType)
-               || this.type.isSubtypeOf(paramType)
-               || paramType.isSubtypeOf(this.type);
+            || this.type.isSubtypeOf(paramType)
+            || paramType.isSubtypeOf(this.type);
     }
 
     public Expr getVariable() {
@@ -49,5 +49,4 @@ public class OperatorVariable {
             return this.timeTuple.evaluatedTimeExpr;
         }
     }
-    
 }

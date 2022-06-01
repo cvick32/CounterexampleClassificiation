@@ -1,0 +1,392 @@
+Removing src/ClassifyCounterexamples$1.class
+Removing src/ClassifyCounterexamples.class
+Removing src/classify/Classifier.class
+Removing src/classify/Counterexample.class
+Removing src/classify/CounterexampleClass.class
+Removing src/classify/ExprOrTimeTuple.class
+Removing src/classify/Solution.class
+Removing src/classify/TimeExprTuple.class
+Removing src/classify/WarningReporter.class
+> Start Parsing	1.9578333333333332E-7 minutes elapsed.
+> Completed Parsing	0.004586156616666667 minutes elapsed.
+> Starting Command CheckEventuallyAliceAndBobCommunicateWithEachOther	0.004606475133333333 minutes elapsed.
+OS _ ARCH = 'Linux' - 'amd64'
+Found = 'amd64-linux
+Found native lib 'jar:file:/home/colevick/Documents/research/AttackClassification/alloy/allAlloyChanges.jar!/amd64-linux/libminisatprover.so'
+>> Completed Running Command and Found Counterexample!	0.015691558 minutes elapsed.
+Flushing tmp files
+> Writing Facts for Counterexample	0.0210926233 minutes elapsed.
+> Completed Writing Facts	0.03346783713333333 minutes elapsed.
+> Handling Warnings	0.03346990501666667 minutes elapsed.
+> Handling Warnings	0.053583345149999996 minutes elapsed.
+> Completed Handling Warnings	0.06622799651666667 minutes elapsed.
+> Completed Handling Warnings	0.0662420365 minutes elapsed.
+> Minimizing Counterexample Facts	0.06624400163333334 minutes elapsed.
+>> Checking if Generated Facts are Sufficient for Violation	0.06624708065 minutes elapsed.
+>> UNSAT, Generated Facts are Sufficient for Violation	0.09042537043333333 minutes elapsed.
+> Completed Minimization	0.09044191598333334 minutes elapsed.
+> Handling Warnings	0.09066632653333334 minutes elapsed.
+> Completed Handling Warnings	0.09145683685 minutes elapsed.
+> Handling Warnings	0.09148390388333333 minutes elapsed.
+> Completed Handling Warnings	0.09242191471666666 minutes elapsed.
+> Starting Command CheckEventuallyAliceAndBobCommunicateWithEachOther	0.09242386346666667 minutes elapsed.
+>> Completed Running Command and Found Counterexample!	0.09811267829999999 minutes elapsed.
+Flushing tmp files
+> Writing Facts for Counterexample	0.10260427893333332 minutes elapsed.
+> Completed Writing Facts	0.10934210045 minutes elapsed.
+> Handling Warnings	0.10934271806666666 minutes elapsed.
+> Handling Warnings	0.1199658663 minutes elapsed.
+> Completed Handling Warnings	0.12768812976666666 minutes elapsed.
+> Completed Handling Warnings	0.12769019776666665 minutes elapsed.
+> Minimizing Counterexample Facts	0.12769124508333332 minutes elapsed.
+>> Checking if Generated Facts are Sufficient for Violation	0.12769343263333333 minutes elapsed.
+>> UNSAT, Generated Facts are Sufficient for Violation	0.14010015816666668 minutes elapsed.
+> Completed Minimization	0.14010416783333335 minutes elapsed.
+> Handling Warnings	0.14011272048333331 minutes elapsed.
+> Completed Handling Warnings	0.14094114088333332 minutes elapsed.
+> Handling Warnings	0.1409491773 minutes elapsed.
+> Completed Handling Warnings	0.14164720451666665 minutes elapsed.
+> Starting Command CheckEventuallyAliceAndBobCommunicateWithEachOther	0.14164904455 minutes elapsed.
+>> Completed Running Command and Found Counterexample!	0.1465074363 minutes elapsed.
+Flushing tmp files
+> Writing Facts for Counterexample	0.15022929616666666 minutes elapsed.
+> Completed Writing Facts	0.15588426066666666 minutes elapsed.
+> Handling Warnings	0.1558857034 minutes elapsed.
+> Handling Warnings	0.1656179749 minutes elapsed.
+> Completed Handling Warnings	0.17279767915 minutes elapsed.
+> Completed Handling Warnings	0.17279936638333335 minutes elapsed.
+> Minimizing Counterexample Facts	0.17280057676666666 minutes elapsed.
+>> Checking if Generated Facts are Sufficient for Violation	0.17280172738333333 minutes elapsed.
+>> UNSAT, Generated Facts are Sufficient for Violation	0.17957437268333332 minutes elapsed.
+> Completed Minimization	0.17957991515000002 minutes elapsed.
+> Handling Warnings	0.17959154595000001 minutes elapsed.
+> Completed Handling Warnings	0.1801217415 minutes elapsed.
+> Handling Warnings	0.18012731826666667 minutes elapsed.
+> Completed Handling Warnings	0.18058444028333334 minutes elapsed.
+> Starting Command CheckEventuallyAliceAndBobCommunicateWithEachOther	0.18058640091666664 minutes elapsed.
+>> Completed Running Command and Found Counterexample!	0.18620941273333333 minutes elapsed.
+Flushing tmp files
+> Writing Facts for Counterexample	0.18936226116666666 minutes elapsed.
+> Completed Writing Facts	0.19578368643333333 minutes elapsed.
+> Handling Warnings	0.19578443258333333 minutes elapsed.
+> Handling Warnings	0.20571338743333334 minutes elapsed.
+> Completed Handling Warnings	0.21273116276666665 minutes elapsed.
+> Completed Handling Warnings	0.2127330913 minutes elapsed.
+> Minimizing Counterexample Facts	0.21273355766666666 minutes elapsed.
+>> Checking if Generated Facts are Sufficient for Violation	0.21273447096666667 minutes elapsed.
+>> UNSAT, Generated Facts are Sufficient for Violation	0.22065581873333334 minutes elapsed.
+> Completed Minimization	0.22066176395 minutes elapsed.
+> Handling Warnings	0.22067420278333336 minutes elapsed.
+> Completed Handling Warnings	0.22118380731666668 minutes elapsed.
+> Handling Warnings	0.22119230898333334 minutes elapsed.
+> Completed Handling Warnings	0.2217461236 minutes elapsed.
+> Starting Command CheckEventuallyAliceAndBobCommunicateWithEachOther	0.22174774978333334 minutes elapsed.
+>> Completed Running Command and Found Counterexample!	0.22602679766666667 minutes elapsed.
+Flushing tmp files
+> Writing Facts for Counterexample	0.22814225821666667 minutes elapsed.
+> Completed Writing Facts	0.23348165541666666 minutes elapsed.
+> Handling Warnings	0.23348236838333333 minutes elapsed.
+> Handling Warnings	0.24334382188333334 minutes elapsed.
+> Completed Handling Warnings	0.25067872781666667 minutes elapsed.
+> Completed Handling Warnings	0.25068028986666663 minutes elapsed.
+> Minimizing Counterexample Facts	0.25068070561666667 minutes elapsed.
+>> Checking if Generated Facts are Sufficient for Violation	0.25068154378333335 minutes elapsed.
+>> UNSAT, Generated Facts are Sufficient for Violation	0.25589352973333335 minutes elapsed.
+> Completed Minimization	0.2559256651166667 minutes elapsed.
+> Handling Warnings	0.2559445894833333 minutes elapsed.
+> Completed Handling Warnings	0.25671869055 minutes elapsed.
+> Handling Warnings	0.25672569915 minutes elapsed.
+> Completed Handling Warnings	0.25750742425 minutes elapsed.
+> Starting Command CheckEventuallyAliceAndBobCommunicateWithEachOther	0.25750953691666667 minutes elapsed.
+>> Completed Running Command and Found Counterexample!	0.26533097865 minutes elapsed.
+Flushing tmp files
+> Writing Facts for Counterexample	0.26688355539999997 minutes elapsed.
+> Completed Writing Facts	0.27317633604999997 minutes elapsed.
+> Handling Warnings	0.2731769866 minutes elapsed.
+> Handling Warnings	0.28417283088333334 minutes elapsed.
+> Completed Handling Warnings	0.29214047908333335 minutes elapsed.
+> Completed Handling Warnings	0.2921429280333333 minutes elapsed.
+> Minimizing Counterexample Facts	0.2921442837666667 minutes elapsed.
+>> Checking if Generated Facts are Sufficient for Violation	0.29214609643333334 minutes elapsed.
+>> UNSAT, Generated Facts are Sufficient for Violation	0.3000808904166667 minutes elapsed.
+> Completed Minimization	0.30008337295 minutes elapsed.
+> Handling Warnings	0.3000901575666666 minutes elapsed.
+> Completed Handling Warnings	0.3006549310166667 minutes elapsed.
+> Handling Warnings	0.3006607062166667 minutes elapsed.
+> Completed Handling Warnings	0.3012925483666667 minutes elapsed.
+> Starting Command CheckEventuallyAliceAndBobCommunicateWithEachOther	0.3012944638333333 minutes elapsed.
+>> Completed Running Command and Found Counterexample!	0.30741842681666665 minutes elapsed.
+Flushing tmp files
+> Writing Facts for Counterexample	0.30874940943333334 minutes elapsed.
+> Completed Writing Facts	0.3133229611833333 minutes elapsed.
+> Handling Warnings	0.31332360476666665 minutes elapsed.
+> Handling Warnings	0.3222807678 minutes elapsed.
+> Completed Handling Warnings	0.32839885116666667 minutes elapsed.
+> Completed Handling Warnings	0.32840095415000004 minutes elapsed.
+> Minimizing Counterexample Facts	0.32841167396666665 minutes elapsed.
+>> Checking if Generated Facts are Sufficient for Violation	0.32841373906666665 minutes elapsed.
+>> UNSAT, Generated Facts are Sufficient for Violation	0.33296609875 minutes elapsed.
+> Completed Minimization	0.3329704222 minutes elapsed.
+> Handling Warnings	0.3329786337833333 minutes elapsed.
+> Completed Handling Warnings	0.33344997719999997 minutes elapsed.
+> Handling Warnings	0.33345536778333335 minutes elapsed.
+> Completed Handling Warnings	0.3339292839 minutes elapsed.
+> Starting Command CheckEventuallyAliceAndBobCommunicateWithEachOther	0.3339307932666667 minutes elapsed.
+>> Completed Running Command and Found Counterexample!	0.3415412425166667 minutes elapsed.
+Flushing tmp files
+> Writing Facts for Counterexample	0.3428262490833333 minutes elapsed.
+> Completed Writing Facts	0.34707081116666666 minutes elapsed.
+> Handling Warnings	0.3470722434666667 minutes elapsed.
+> Handling Warnings	0.35551840111666666 minutes elapsed.
+> Completed Handling Warnings	0.36147467288333335 minutes elapsed.
+> Completed Handling Warnings	0.36147611133333335 minutes elapsed.
+> Minimizing Counterexample Facts	0.3614768354166667 minutes elapsed.
+>> Checking if Generated Facts are Sufficient for Violation	0.36147764895 minutes elapsed.
+>> UNSAT, Generated Facts are Sufficient for Violation	0.3649676531666667 minutes elapsed.
+> Completed Minimization	0.3649715331 minutes elapsed.
+> Handling Warnings	0.3649809815833333 minutes elapsed.
+> Completed Handling Warnings	0.36547416488333334 minutes elapsed.
+> Handling Warnings	0.36548270968333335 minutes elapsed.
+> Completed Handling Warnings	0.36600212476666666 minutes elapsed.
+> Starting Command CheckEventuallyAliceAndBobCommunicateWithEachOther	0.36600349768333335 minutes elapsed.
+>> Completed Running Command and Found Counterexample!	0.3731339167333333 minutes elapsed.
+Flushing tmp files
+> Writing Facts for Counterexample	0.374250881 minutes elapsed.
+> Completed Writing Facts	0.3794153056166667 minutes elapsed.
+> Handling Warnings	0.37941593486666664 minutes elapsed.
+> Handling Warnings	0.38827371401666666 minutes elapsed.
+> Completed Handling Warnings	0.3943045849833334 minutes elapsed.
+> Completed Handling Warnings	0.3943059386833333 minutes elapsed.
+> Minimizing Counterexample Facts	0.39430627064999996 minutes elapsed.
+>> Checking if Generated Facts are Sufficient for Violation	0.3943070254666667 minutes elapsed.
+>> UNSAT, Generated Facts are Sufficient for Violation	0.3995709291166667 minutes elapsed.
+> Completed Minimization	0.39957354301666664 minutes elapsed.
+> Handling Warnings	0.3995798255 minutes elapsed.
+> Completed Handling Warnings	0.4001535632 minutes elapsed.
+> Handling Warnings	0.40016226606666666 minutes elapsed.
+> Completed Handling Warnings	0.40079769025 minutes elapsed.
+> Starting Command CheckEventuallyAliceAndBobCommunicateWithEachOther	0.40079943005 minutes elapsed.
+>> Completed Running Command and Found Counterexample!	0.4079523303 minutes elapsed.
+Flushing tmp files
+> Writing Facts for Counterexample	0.4090205312333334 minutes elapsed.
+> Completed Writing Facts	0.41696559143333334 minutes elapsed.
+> Handling Warnings	0.41696652694999997 minutes elapsed.
+> Handling Warnings	0.42894067486666665 minutes elapsed.
+> Completed Handling Warnings	0.4370968817 minutes elapsed.
+> Completed Handling Warnings	0.4370981022166667 minutes elapsed.
+> Minimizing Counterexample Facts	0.43709835701666666 minutes elapsed.
+>> Checking if Generated Facts are Sufficient for Violation	0.43709928273333337 minutes elapsed.
+>> UNSAT, Generated Facts are Sufficient for Violation	0.44447468943333335 minutes elapsed.
+> Completed Minimization	0.44447712651666665 minutes elapsed.
+> Handling Warnings	0.44448344450000005 minutes elapsed.
+> Completed Handling Warnings	0.4449726776333333 minutes elapsed.
+> Handling Warnings	0.4449787219833333 minutes elapsed.
+> Completed Handling Warnings	0.44551119885 minutes elapsed.
+> Starting Command CheckEventuallyAliceAndBobCommunicateWithEachOther	0.4455125753666667 minutes elapsed.
+>> Completed Running Command and Found Counterexample!	0.45225375985 minutes elapsed.
+Flushing tmp files
+> Writing Facts for Counterexample	0.4543133966 minutes elapsed.
+> Completed Writing Facts	0.46241752975 minutes elapsed.
+> Handling Warnings	0.46241809483333335 minutes elapsed.
+> Handling Warnings	0.47331343330000003 minutes elapsed.
+> Completed Handling Warnings	0.48077423820000004 minutes elapsed.
+> Completed Handling Warnings	0.4807756860666667 minutes elapsed.
+> Minimizing Counterexample Facts	0.48077595891666663 minutes elapsed.
+>> Checking if Generated Facts are Sufficient for Violation	0.48077683475 minutes elapsed.
+>> UNSAT, Generated Facts are Sufficient for Violation	0.48812287815000005 minutes elapsed.
+> Completed Minimization	0.4881249255166667 minutes elapsed.
+> Handling Warnings	0.48813079845 minutes elapsed.
+> Completed Handling Warnings	0.48863395783333335 minutes elapsed.
+> Handling Warnings	0.4886393882166667 minutes elapsed.
+> Completed Handling Warnings	0.48912936698333337 minutes elapsed.
+> Starting Command CheckEventuallyAliceAndBobCommunicateWithEachOther	0.4891306484333333 minutes elapsed.
+>> Completed Running Command and Found Counterexample!	0.4962639384 minutes elapsed.
+Flushing tmp files
+> Writing Facts for Counterexample	0.49739691208333336 minutes elapsed.
+> Completed Writing Facts	0.5023790976 minutes elapsed.
+> Handling Warnings	0.5023798815333334 minutes elapsed.
+> Handling Warnings	0.5118174118166666 minutes elapsed.
+> Completed Handling Warnings	0.5184471059833333 minutes elapsed.
+> Completed Handling Warnings	0.5184486074833333 minutes elapsed.
+> Minimizing Counterexample Facts	0.5184488837833333 minutes elapsed.
+>> Checking if Generated Facts are Sufficient for Violation	0.5184496977999999 minutes elapsed.
+>> UNSAT, Generated Facts are Sufficient for Violation	0.52387378685 minutes elapsed.
+> Completed Minimization	0.52388534025 minutes elapsed.
+> Handling Warnings	0.5238935278 minutes elapsed.
+> Completed Handling Warnings	0.5243938764833334 minutes elapsed.
+> Handling Warnings	0.524400518 minutes elapsed.
+> Completed Handling Warnings	0.52491459325 minutes elapsed.
+> Starting Command CheckEventuallyAliceAndBobCommunicateWithEachOther	0.5249162203166666 minutes elapsed.
+>> Completed Running Command and Found Counterexample!	0.5373927912 minutes elapsed.
+Flushing tmp files
+> Writing Facts for Counterexample	0.5384972959333333 minutes elapsed.
+> Completed Writing Facts	0.5450929067833333 minutes elapsed.
+> Handling Warnings	0.5450934762666667 minutes elapsed.
+> Handling Warnings	0.5555250625333333 minutes elapsed.
+> Completed Handling Warnings	0.56242187555 minutes elapsed.
+> Completed Handling Warnings	0.5624231116999999 minutes elapsed.
+> Minimizing Counterexample Facts	0.5624233772499999 minutes elapsed.
+>> Checking if Generated Facts are Sufficient for Violation	0.5624240535166667 minutes elapsed.
+>> UNSAT, Generated Facts are Sufficient for Violation	0.5681143179333333 minutes elapsed.
+> Completed Minimization	0.5681165876666667 minutes elapsed.
+> Handling Warnings	0.5681261343333334 minutes elapsed.
+> Completed Handling Warnings	0.5686395056833333 minutes elapsed.
+> Handling Warnings	0.5686485499166667 minutes elapsed.
+> Completed Handling Warnings	0.5691757629333334 minutes elapsed.
+> Starting Command CheckEventuallyAliceAndBobCommunicateWithEachOther	0.5691771208333333 minutes elapsed.
+>> Completed Running Command and Found Counterexample!	0.5822711438666667 minutes elapsed.
+Flushing tmp files
+> Writing Facts for Counterexample	0.5833872578166667 minutes elapsed.
+> Completed Writing Facts	0.5907783927333334 minutes elapsed.
+> Handling Warnings	0.59077897765 minutes elapsed.
+> Handling Warnings	0.6024048480666667 minutes elapsed.
+> Completed Handling Warnings	0.6105009889666667 minutes elapsed.
+> Completed Handling Warnings	0.6105023534999999 minutes elapsed.
+> Minimizing Counterexample Facts	0.6105028327333333 minutes elapsed.
+>> Checking if Generated Facts are Sufficient for Violation	0.6105038674666667 minutes elapsed.
+>> UNSAT, Generated Facts are Sufficient for Violation	0.6171485156333334 minutes elapsed.
+> Completed Minimization	0.6171510204333334 minutes elapsed.
+> Handling Warnings	0.6171569810166667 minutes elapsed.
+> Completed Handling Warnings	0.6176700495999999 minutes elapsed.
+> Handling Warnings	0.6176754267166668 minutes elapsed.
+> Completed Handling Warnings	0.61818487155 minutes elapsed.
+> Starting Command CheckEventuallyAliceAndBobCommunicateWithEachOther	0.6181861872833333 minutes elapsed.
+>> Completed Running Command and Found Counterexample!	0.6314520763833333 minutes elapsed.
+Flushing tmp files
+> Writing Facts for Counterexample	0.63254005305 minutes elapsed.
+> Completed Writing Facts	0.6389913357333333 minutes elapsed.
+> Handling Warnings	0.6389919132 minutes elapsed.
+> Handling Warnings	0.6500305743833333 minutes elapsed.
+> Completed Handling Warnings	0.6573375146166666 minutes elapsed.
+> Completed Handling Warnings	0.6573387711666666 minutes elapsed.
+> Minimizing Counterexample Facts	0.6573390236333334 minutes elapsed.
+>> Checking if Generated Facts are Sufficient for Violation	0.6573397085833333 minutes elapsed.
+>> UNSAT, Generated Facts are Sufficient for Violation	0.6624919576166667 minutes elapsed.
+> Completed Minimization	0.6625031168 minutes elapsed.
+> Handling Warnings	0.6625144523500001 minutes elapsed.
+> Completed Handling Warnings	0.6633105480166667 minutes elapsed.
+> Handling Warnings	0.66331650285 minutes elapsed.
+> Completed Handling Warnings	0.6638662247833333 minutes elapsed.
+> Starting Command CheckEventuallyAliceAndBobCommunicateWithEachOther	0.66386752095 minutes elapsed.
+>> Completed Running Command and Found Counterexample!	0.6778026288166666 minutes elapsed.
+Flushing tmp files
+> Writing Facts for Counterexample	0.6788465424333334 minutes elapsed.
+> Completed Writing Facts	0.6856678796666666 minutes elapsed.
+> Handling Warnings	0.68566845985 minutes elapsed.
+> Handling Warnings	0.69541091895 minutes elapsed.
+> Completed Handling Warnings	0.7035050169166667 minutes elapsed.
+> Completed Handling Warnings	0.7035063526666666 minutes elapsed.
+> Minimizing Counterexample Facts	0.7035065913333334 minutes elapsed.
+>> Checking if Generated Facts are Sufficient for Violation	0.7035072374166667 minutes elapsed.
+>> UNSAT, Generated Facts are Sufficient for Violation	0.7095195277833334 minutes elapsed.
+> Completed Minimization	0.7095218619666667 minutes elapsed.
+> Handling Warnings	0.7095277671000001 minutes elapsed.
+> Completed Handling Warnings	0.7100672455833333 minutes elapsed.
+> Handling Warnings	0.7100745861666666 minutes elapsed.
+> Completed Handling Warnings	0.7106671272666667 minutes elapsed.
+> Starting Command CheckEventuallyAliceAndBobCommunicateWithEachOther	0.71066958545 minutes elapsed.
+>> Completed Running Command and Found Counterexample!	0.7252523799 minutes elapsed.
+Flushing tmp files
+> Writing Facts for Counterexample	0.72730014285 minutes elapsed.
+> Completed Writing Facts	0.7339739913666666 minutes elapsed.
+> Handling Warnings	0.7339748009333333 minutes elapsed.
+> Handling Warnings	0.7456733446499999 minutes elapsed.
+> Completed Handling Warnings	0.75495553425 minutes elapsed.
+> Completed Handling Warnings	0.7549567198333332 minutes elapsed.
+> Minimizing Counterexample Facts	0.7549569390666666 minutes elapsed.
+>> Checking if Generated Facts are Sufficient for Violation	0.7549576887833334 minutes elapsed.
+>> UNSAT, Generated Facts are Sufficient for Violation	0.7618415407000001 minutes elapsed.
+> Completed Minimization	0.7618440320000001 minutes elapsed.
+> Handling Warnings	0.7618592106000001 minutes elapsed.
+> Completed Handling Warnings	0.76239230725 minutes elapsed.
+> Handling Warnings	0.7623975434333333 minutes elapsed.
+> Completed Handling Warnings	0.7629359553333334 minutes elapsed.
+> Starting Command CheckEventuallyAliceAndBobCommunicateWithEachOther	0.7629372532833333 minutes elapsed.
+>> Completed Running Command and Found Counterexample!	0.7771011407166667 minutes elapsed.
+Flushing tmp files
+> Writing Facts for Counterexample	0.7791496865499999 minutes elapsed.
+> Completed Writing Facts	0.78328781775 minutes elapsed.
+> Handling Warnings	0.7832882893166667 minutes elapsed.
+> Handling Warnings	0.7927834284333334 minutes elapsed.
+> Completed Handling Warnings	0.7991685543833333 minutes elapsed.
+> Completed Handling Warnings	0.7991698159333332 minutes elapsed.
+> Minimizing Counterexample Facts	0.7991701136 minutes elapsed.
+>> Checking if Generated Facts are Sufficient for Violation	0.7991708523166667 minutes elapsed.
+>> UNSAT, Generated Facts are Sufficient for Violation	0.80453068885 minutes elapsed.
+> Completed Minimization	0.8045331940666667 minutes elapsed.
+> Handling Warnings	0.8045394167000001 minutes elapsed.
+> Completed Handling Warnings	0.8050758767 minutes elapsed.
+> Handling Warnings	0.8050824596666666 minutes elapsed.
+> Completed Handling Warnings	0.8056135584166667 minutes elapsed.
+> Starting Command CheckEventuallyAliceAndBobCommunicateWithEachOther	0.8056147764333333 minutes elapsed.
+>> Completed Running Command and Found Counterexample!	0.8206673311833333 minutes elapsed.
+Flushing tmp files
+> Writing Facts for Counterexample	0.8217149615 minutes elapsed.
+> Completed Writing Facts	0.8292674624499999 minutes elapsed.
+> Handling Warnings	0.8292679219666667 minutes elapsed.
+> Handling Warnings	0.8398139135333333 minutes elapsed.
+> Completed Handling Warnings	0.8487392077333333 minutes elapsed.
+> Completed Handling Warnings	0.8487404610166667 minutes elapsed.
+> Minimizing Counterexample Facts	0.84874098355 minutes elapsed.
+>> Checking if Generated Facts are Sufficient for Violation	0.8487417489333333 minutes elapsed.
+>> UNSAT, Generated Facts are Sufficient for Violation	0.8533734190166666 minutes elapsed.
+> Completed Minimization	0.8533767838833334 minutes elapsed.
+> Handling Warnings	0.8533847799000001 minutes elapsed.
+> Completed Handling Warnings	0.8539041651 minutes elapsed.
+> Handling Warnings	0.8539101413666667 minutes elapsed.
+> Completed Handling Warnings	0.8544400348333333 minutes elapsed.
+> Starting Command CheckEventuallyAliceAndBobCommunicateWithEachOther	0.8544411814333334 minutes elapsed.
+>> Completed Running Command and Found Counterexample!	0.8720034045333332 minutes elapsed.
+Flushing tmp files
+> Writing Facts for Counterexample	0.8733448443333334 minutes elapsed.
+> Completed Writing Facts	0.8792313799 minutes elapsed.
+> Handling Warnings	0.8792318980833334 minutes elapsed.
+> Handling Warnings	0.8888475771666666 minutes elapsed.
+> Completed Handling Warnings	0.8967786116333334 minutes elapsed.
+> Completed Handling Warnings	0.8967797147333333 minutes elapsed.
+> Minimizing Counterexample Facts	0.8967799250499999 minutes elapsed.
+>> Checking if Generated Facts are Sufficient for Violation	0.89678087975 minutes elapsed.
+>> UNSAT, Generated Facts are Sufficient for Violation	0.90278350725 minutes elapsed.
+> Completed Minimization	0.9027853867500001 minutes elapsed.
+> Handling Warnings	0.9027917335000001 minutes elapsed.
+> Completed Handling Warnings	0.9033419821166666 minutes elapsed.
+> Handling Warnings	0.9033479418 minutes elapsed.
+> Completed Handling Warnings	0.9039149757666666 minutes elapsed.
+> Starting Command CheckEventuallyAliceAndBobCommunicateWithEachOther	0.9039165485833334 minutes elapsed.
+>> Completed Running Command and Found Counterexample!	0.9207448712833333 minutes elapsed.
+Flushing tmp files
+> Writing Facts for Counterexample	0.9217606248833333 minutes elapsed.
+> Completed Writing Facts	0.9291296018666666 minutes elapsed.
+> Handling Warnings	0.9291301251166666 minutes elapsed.
+> Handling Warnings	0.9407601770666666 minutes elapsed.
+> Completed Handling Warnings	0.9486151630833334 minutes elapsed.
+> Completed Handling Warnings	0.9486162190999999 minutes elapsed.
+> Minimizing Counterexample Facts	0.9486164006666667 minutes elapsed.
+>> Checking if Generated Facts are Sufficient for Violation	0.9486169720333333 minutes elapsed.
+>> UNSAT, Generated Facts are Sufficient for Violation	0.9549387226 minutes elapsed.
+> Completed Minimization	0.9549404015666667 minutes elapsed.
+> Handling Warnings	0.9549469246333333 minutes elapsed.
+> Completed Handling Warnings	0.9554965943333333 minutes elapsed.
+> Handling Warnings	0.9555021985166667 minutes elapsed.
+> Completed Handling Warnings	0.9560642450666667 minutes elapsed.
+> Starting Command CheckEventuallyAliceAndBobCommunicateWithEachOther	0.9560656377166666 minutes elapsed.
+>> Completed Running Command and Found Counterexample!	0.9732739711999999 minutes elapsed.
+Flushing tmp files
+> Writing Facts for Counterexample	0.9742838046333334 minutes elapsed.
+> Completed Writing Facts	0.9802258488500001 minutes elapsed.
+> Handling Warnings	0.9802263451666666 minutes elapsed.
+> Handling Warnings	0.9915310542666667 minutes elapsed.
+> Completed Handling Warnings	0.9992838728666666 minutes elapsed.
+> Completed Handling Warnings	0.9992851152833333 minutes elapsed.
+> Minimizing Counterexample Facts	0.9992853955666666 minutes elapsed.
+>> Checking if Generated Facts are Sufficient for Violation	0.999286107 minutes elapsed.
+> SAT, but Checking if Alloy GUI says it's SAT.
+CheckEventuallyAliceAndBobCommunicateWithEachOther
+EventuallyAliceAndBobCommunicateWithEachOther
+>>>>> SAT, NOT expected!
+>>>>>> Given Predicates may be unable to capture violating behavior
+Predicates Used: empty
+relEqualsMessage
+relEqualsProcess
+relEqualsKey
+

@@ -1,0 +1,131 @@
+Removing alloy/tcpClassification.als
+Removing src/ClassifyCounterexamples$1.class
+Removing src/ClassifyCounterexamples.class
+Removing src/classify/Classifier.class
+Removing src/classify/Counter.class
+Removing src/classify/Counterexample.class
+Removing src/classify/CounterexampleClass.class
+Removing src/classify/ExprOrTimeTuple.class
+Removing src/classify/OperatorVariable.class
+Removing src/classify/Solution.class
+Removing src/classify/TimeExprTuple.class
+Removing src/classify/WarningReporter.class
+s/check CheckEventuallyAliceAndBobCommunicateWithEachOther.*/check CheckEventuallyAliceAndBobCommunicateWithEachOther for 10/g ./alloy/needhamSchroederSymmetric.als
+> Start Parsing	2.1938E-5 seconds elapsed.
+> Completed Parsing	0.372051953 seconds elapsed.
+> Searching for Counterexample	0.374522472 seconds elapsed.
+OS _ ARCH = 'Linux' - 'amd64'
+Found = 'amd64-linux
+Found native lib 'jar:file:/home/ubuntu/AttackClassification/alloy/allAlloyChanges.jar!/amd64-linux/libminisatprover.so'
+>> Completed Running Command and Found Counterexample!	1.05399574 seconds elapsed.
+Time$0
+Time$1
+Time$2
+Time$3
+Time$4
+Time$5
+Time$6
+Time$7
+Time$8
+Time$9
+Flushing tmp files
+> Writing Facts for Counterexample	1.087884948 seconds elapsed.
+> Completed Writing Facts	1.095286562 seconds elapsed.
+> Handling Warnings	1.095347523 seconds elapsed.
+> Completed Handling Warnings	1.207378497 seconds elapsed.
+> Minimizing Counterexample Facts	1.207502011 seconds elapsed.
+>> Checking if Generated Facts are Sufficient for Violation	1.207671132 seconds elapsed.
+>>>>> SAT, NOT expected!
+> Trying Power Predicates.
+> Activating Power Predicates
+> Handling Warnings	1.50232019 seconds elapsed.
+> Completed Handling Warnings	1.615761138 seconds elapsed.
+> Searching for Counterexample	1.615884003 seconds elapsed.
+>> Completed Running Command and Found Counterexample!	1.851441348 seconds elapsed.
+Time$0
+Time$1
+Time$2
+Time$3
+Time$4
+Time$5
+Time$6
+Time$7
+Time$8
+Time$9
+Flushing tmp files
+> Writing Facts for Counterexample	2.345825474 seconds elapsed.
+> Completed Writing Facts	3.888164367 seconds elapsed.
+> Handling Warnings	3.888243702 seconds elapsed.
+> Handling Warnings	5.70268927 seconds elapsed.
+> Completed Handling Warnings	7.299807368 seconds elapsed.
+> Completed Handling Warnings	7.299905817 seconds elapsed.
+> Minimizing Counterexample Facts	7.299935971 seconds elapsed.
+>> Checking if Generated Facts are Sufficient for Violation	7.300036511 seconds elapsed.
+>> UNSAT, Generated Facts are Sufficient for Violation	8.587853939 seconds elapsed.
+> Completed Minimization	8.592605915 seconds elapsed.
+> Handling Warnings	8.629369697 seconds elapsed.
+> Completed Handling Warnings	8.676081579 seconds elapsed.
+> Handling Warnings	8.67703134 seconds elapsed.
+> Completed Handling Warnings	8.709766461 seconds elapsed.
+> Searching for Counterexample	8.709840317 seconds elapsed.
+>> Completed Running Command and Found Counterexample!	8.909425646 seconds elapsed.
+Time$0
+Time$1
+Time$2
+Time$3
+Time$4
+Time$5
+Time$6
+Time$7
+Time$8
+Time$9
+Flushing tmp files
+> Writing Facts for Counterexample	9.181805362 seconds elapsed.
+> Completed Writing Facts	10.68958149 seconds elapsed.
+> Handling Warnings	10.689638044 seconds elapsed.
+> Handling Warnings	12.337036198 seconds elapsed.
+> Completed Handling Warnings	13.617791185 seconds elapsed.
+> Completed Handling Warnings	13.617898284 seconds elapsed.
+> Minimizing Counterexample Facts	13.617928627 seconds elapsed.
+>> Checking if Generated Facts are Sufficient for Violation	13.618013007 seconds elapsed.
+>> UNSAT, Generated Facts are Sufficient for Violation	14.49658977 seconds elapsed.
+> Completed Minimization	14.496926727 seconds elapsed.
+> Handling Warnings	14.497457625 seconds elapsed.
+> Completed Handling Warnings	14.52515186 seconds elapsed.
+> Handling Warnings	14.525487157 seconds elapsed.
+> Completed Handling Warnings	14.552072317 seconds elapsed.
+> Searching for Counterexample	14.552152579 seconds elapsed.
+> Completed Command and Found NO Counterexample!	14.77997708 seconds elapsed.
+> Checking Redundancy	14.78007892 seconds elapsed.
+> Start Parsing	14.780753503 seconds elapsed.
+> Completed Parsing	14.807627243 seconds elapsed.
+> Searching for Counterexample	14.807703766 seconds elapsed.
+>> Completed Running Command and Found Counterexample!	14.939609817 seconds elapsed.
+Time$0
+Time$1
+Time$2
+Time$3
+Time$4
+Time$5
+Time$6
+Time$7
+Time$8
+Time$9
+> Start Parsing	15.187760964 seconds elapsed.
+> Completed Parsing	15.214452747 seconds elapsed.
+> Searching for Counterexample	15.214539353 seconds elapsed.
+>> Completed Running Command and Found Counterexample!	15.342292511 seconds elapsed.
+Time$0
+Time$1
+Time$2
+Time$3
+Time$4
+Time$5
+Time$6
+Time$7
+Time$8
+Time$9
+> Handling Warnings	15.59313254 seconds elapsed.
+> Completed Handling Warnings	15.619653402 seconds elapsed.
+Time Spent in Alloy 2.4597843249999998	15.621240317 seconds elapsed.
+Classification at /home/ubuntu/AttackClassification/alloy/needhamSchroederSymmetricClassification.als	15.622118083 seconds elapsed.

@@ -1,0 +1,83 @@
+Removing src/ClassifyCounterexamples$1.class
+Removing src/ClassifyCounterexamples.class
+Removing src/classify/Classifier.class
+Removing src/classify/Counter.class
+Removing src/classify/Counterexample.class
+Removing src/classify/CounterexampleClass.class
+Removing src/classify/ExprOrTimeTuple.class
+Removing src/classify/OperatorVariable.class
+Removing src/classify/Solution.class
+Removing src/classify/TimeExprTuple.class
+Removing src/classify/WarningReporter.class
+s/check CheckNoHalfClosedConnectionEst.*/check CheckNoHalfClosedConnectionEst for 8/g ./alloy/tcp.als
+> Start Parsing	1.8059E-5 seconds elapsed.
+> Completed Parsing	0.294761118 seconds elapsed.
+> Searching for Counterexample	0.297622707 seconds elapsed.
+OS _ ARCH = 'Linux' - 'amd64'
+Found = 'amd64-linux
+Found native lib 'jar:file:/home/ubuntu/AttackClassification/alloy/allAlloyChanges.jar!/amd64-linux/libminisatprover.so'
+>> Completed Running Command and Found Counterexample!	1.298857403 seconds elapsed.
+Time$0
+Time$1
+Time$2
+Time$3
+Time$4
+Time$5
+Time$6
+Time$7
+Flushing tmp files
+> Writing Facts for Counterexample	1.311604485 seconds elapsed.
+> Completed Writing Facts	1.316414899 seconds elapsed.
+> Handling Warnings	1.316472955 seconds elapsed.
+> Completed Handling Warnings	1.378914138 seconds elapsed.
+> Minimizing Counterexample Facts	1.379041612 seconds elapsed.
+>> Checking if Generated Facts are Sufficient for Violation	1.379208022 seconds elapsed.
+>>>>> SAT, NOT expected!
+> Trying Power Predicates.
+> Activating Power Predicates
+> Handling Warnings	1.965238559 seconds elapsed.
+> Completed Handling Warnings	2.05672848 seconds elapsed.
+> Searching for Counterexample	2.056856227 seconds elapsed.
+>> Completed Running Command and Found Counterexample!	2.739681042 seconds elapsed.
+Time$0
+Time$1
+Time$2
+Time$3
+Time$4
+Time$5
+Time$6
+Time$7
+Flushing tmp files
+> Writing Facts for Counterexample	2.877423232 seconds elapsed.
+> Completed Writing Facts	2.942961365 seconds elapsed.
+> Handling Warnings	2.943030007 seconds elapsed.
+> Handling Warnings	3.07833998 seconds elapsed.
+> Completed Handling Warnings	3.173210144 seconds elapsed.
+> Completed Handling Warnings	3.173338122 seconds elapsed.
+> Minimizing Counterexample Facts	3.173375151 seconds elapsed.
+>> Checking if Generated Facts are Sufficient for Violation	3.17347514 seconds elapsed.
+>> UNSAT, Generated Facts are Sufficient for Violation	3.727486199 seconds elapsed.
+> Completed Minimization	3.727947807 seconds elapsed.
+> Handling Warnings	3.745014876 seconds elapsed.
+> Completed Handling Warnings	3.787303323 seconds elapsed.
+> Handling Warnings	3.788428373 seconds elapsed.
+> Completed Handling Warnings	3.850380925 seconds elapsed.
+> Searching for Counterexample	3.85049174 seconds elapsed.
+> Completed Command and Found NO Counterexample!	4.241525425 seconds elapsed.
+> Checking Redundancy	4.241648445 seconds elapsed.
+> Start Parsing	4.242012799 seconds elapsed.
+> Completed Parsing	4.283859662 seconds elapsed.
+> Searching for Counterexample	4.283974984 seconds elapsed.
+>> Completed Running Command and Found Counterexample!	4.752033507 seconds elapsed.
+Time$0
+Time$1
+Time$2
+Time$3
+Time$4
+Time$5
+Time$6
+Time$7
+> Handling Warnings	4.82068806 seconds elapsed.
+> Completed Handling Warnings	4.863966477 seconds elapsed.
+Time Spent in Alloy 1.139425089	4.865245402 seconds elapsed.
+Classification at /home/ubuntu/AttackClassification/alloy/tcpClassification.als	4.865429424 seconds elapsed.

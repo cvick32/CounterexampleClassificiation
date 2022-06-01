@@ -1,0 +1,70 @@
+Removing alloy/needhamSchroederSymmetricClassification.als
+Removing src/ClassifyCounterexamples$1.class
+Removing src/ClassifyCounterexamples.class
+Removing src/classify/Classifier.class
+Removing src/classify/Counterexample.class
+Removing src/classify/CounterexampleClass.class
+Removing src/classify/ExprOrTimeTuple.class
+Removing src/classify/Solution.class
+Removing src/classify/TimeExprTuple.class
+Removing src/classify/WarningReporter.class
+> Start Parsing	1.3673333333333333E-7 minutes elapsed.
+> Completed Parsing	0.004768427916666667 minutes elapsed.
+> Starting Command CheckEventuallyAliceAndBobCommunicateWithEachOther	0.004786723816666667 minutes elapsed.
+OS _ ARCH = 'Linux' - 'amd64'
+Found = 'amd64-linux
+Found native lib 'jar:file:/home/colevick/Documents/research/AttackClassification/alloy/allAlloyChanges.jar!/amd64-linux/libminisatprover.so'
+>> Completed Running Command and Found Counterexample!	0.017714335433333332 minutes elapsed.
+Flushing tmp files
+> Writing Facts for Counterexample	0.0253316376 minutes elapsed.
+> Completed Writing Facts	0.0372594814 minutes elapsed.
+> Handling Warnings	0.03726146526666666 minutes elapsed.
+> Handling Warnings	0.05984104516666667 minutes elapsed.
+> Completed Handling Warnings	0.07539458963333333 minutes elapsed.
+> Completed Handling Warnings	0.0753965824 minutes elapsed.
+> Minimizing Counterexample Facts	0.07539758981666668 minutes elapsed.
+>> Checking if Generated Facts are Sufficient for Violation	0.07540054961666667 minutes elapsed.
+>> UNSAT, Generated Facts are Sufficient for Violation	0.09718494191666666 minutes elapsed.
+> Completed Minimization	0.09721181436666666 minutes elapsed.
+> Handling Warnings	0.09750349783333333 minutes elapsed.
+> Completed Handling Warnings	0.09819022128333334 minutes elapsed.
+> Handling Warnings	0.098206559 minutes elapsed.
+> Completed Handling Warnings	0.09903196316666667 minutes elapsed.
+> Starting Command CheckEventuallyAliceAndBobCommunicateWithEachOther	0.09903408026666667 minutes elapsed.
+>> Completed Running Command and Found Counterexample!	0.10603840023333334 minutes elapsed.
+Flushing tmp files
+> Writing Facts for Counterexample	0.10980748588333333 minutes elapsed.
+> Completed Writing Facts	0.11841921893333333 minutes elapsed.
+> Handling Warnings	0.1184198769 minutes elapsed.
+> Handling Warnings	0.13267147588333333 minutes elapsed.
+> Completed Handling Warnings	0.1415196902 minutes elapsed.
+> Completed Handling Warnings	0.14152166748333334 minutes elapsed.
+> Minimizing Counterexample Facts	0.14152236261666667 minutes elapsed.
+>> Checking if Generated Facts are Sufficient for Violation	0.14152426303333332 minutes elapsed.
+>> UNSAT, Generated Facts are Sufficient for Violation	0.154652 minutes elapsed.
+> Completed Minimization	0.15465794998333332 minutes elapsed.
+> Handling Warnings	0.15467711813333332 minutes elapsed.
+> Completed Handling Warnings	0.15550408873333332 minutes elapsed.
+> Handling Warnings	0.15551343121666666 minutes elapsed.
+> Completed Handling Warnings	0.15628815208333335 minutes elapsed.
+> Starting Command CheckEventuallyAliceAndBobCommunicateWithEachOther	0.1562910056 minutes elapsed.
+>> Completed Running Command and Found Counterexample!	0.16202226345 minutes elapsed.
+Flushing tmp files
+> Writing Facts for Counterexample	0.16576250458333333 minutes elapsed.
+> Completed Writing Facts	0.17645079441666667 minutes elapsed.
+> Handling Warnings	0.17645168513333334 minutes elapsed.
+> Handling Warnings	0.19124023126666667 minutes elapsed.
+> Completed Handling Warnings	0.2003473754833333 minutes elapsed.
+> Completed Handling Warnings	0.20034885249999998 minutes elapsed.
+> Minimizing Counterexample Facts	0.2003492612 minutes elapsed.
+>> Checking if Generated Facts are Sufficient for Violation	0.20035024798333334 minutes elapsed.
+> SAT, but Checking if Alloy GUI says it's SAT.
+CheckEventuallyAliceAndBobCommunicateWithEachOther
+EventuallyAliceAndBobCommunicateWithEachOther
+>>>>> SAT, NOT expected!
+>>>>>> Given Predicates may be unable to capture violating behavior
+Predicates Used: empty
+relEqualsMessage
+relEqualsProcess
+relEqualsKey
+
