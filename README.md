@@ -21,8 +21,3 @@
       - checks whether we want to check for redundant classes or not
         at the end of classification
 
-# Example
-Here is an example of getting this repository up and running using a
-fresh AWS EC2 Ubuntu instance.
-
-![](img/counterexample-classification.mp4)
