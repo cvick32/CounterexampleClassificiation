@@ -20,4 +20,8 @@
     - fourth arg is redundancy check: `{T, F}`
       - checks whether we want to check for redundant classes or not
         at the end of classification
+# Example
+Here's a video showing a quick install on a fresh AWS EC2 Ubuntu
+machine:
 
+![image alt text](https://vimeo.com/manage/videos/716305196/privacy)
